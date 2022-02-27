@@ -2,7 +2,7 @@ export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
-        <div className='navbar-header'>
+        <div className='navbar-header header'>
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -15,8 +15,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            Big data big impact
+
+          <a className='navbar-brand page-scroll desc link' href='#page-top'>
+            <img src="img/logo.jpg" className="img-responsive logo" alt="" />{" "}
           </a>{' '}
         </div>
 
