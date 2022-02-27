@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
 import { Header } from "./header";
 import { About } from "./about";
-import { Contact } from "./contact";
+import { Footer } from "./footer";
 import JsonData from "../data/data.json";
 
 export const Landing = () => {
@@ -16,7 +16,7 @@ export const Landing = () => {
             <Header data={landingPageData.Header} />
             {/* <Features data={landingPageData.Features} /> */}
             <About data={landingPageData.About} />
-            <Contact data={landingPageData.Contact} />
+            <Footer data={landingPageData.Contact} />
         </div>
     );
 };
