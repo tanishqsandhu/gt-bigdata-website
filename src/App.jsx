@@ -1,4 +1,5 @@
 import { Landing } from "./components/Landing";
+import { AboutPage } from "./components/AboutPage";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import {
@@ -15,9 +16,16 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   return (
-    <div>
-      <Landing/>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Landing/>
+        </Route>
+        <Route exact path="/about">
+          <AboutPage/>
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 

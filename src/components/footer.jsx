@@ -23,7 +23,7 @@ export const Footer = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.slack : '/'} target='_blank' rel='noreferrer'>
-                      <i className="fa fa-slack"></i>
+                      <i class='fa fa-slack'></i>
                     </a>
                   </li>
                   <li>

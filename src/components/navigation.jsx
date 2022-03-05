@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
 
-          <a className='navbar-brand page-scroll desc link' href='#page-top'>
+          <a className='navbar-brand page-scroll desc link' href='/'>
             <img src="img/logo.jpg" className="img-responsive logo" alt="" />{" "}
           </a>{' '}
         </div>
@@ -27,32 +27,32 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#about' className='page-scroll'>
+              <a href='about' className='page-scroll'>
                 About
               </a>
             </li>
             <li>
-              <a href='#projects' className='page-scroll'>
+              <a href='projects' className='page-scroll'>
                 Projects
               </a>
             </li>
             <li>
-              <a href='#leadership' className='page-scroll'>
+              <a href='leadership' className='page-scroll'>
                 Leadership
               </a>
             </li>
             <li>
-              <a href='#alumni' className='page-scroll'>
+              <a href='alumni' className='page-scroll'>
                 Alumni
               </a>
             </li>
             <li>
-              <a href='#sponsors' className='page-scroll'>
+              <a href='sponsors' className='page-scroll'>
                 Sponsors
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
+              <a href='contact' className='page-scroll'>
                 Get Involved
               </a>
             </li>
