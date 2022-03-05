@@ -15,7 +15,7 @@ export const Landing = () => {
             <Navigation />
             <Header data={landingPageData.Header} />
             {/* <Features data={landingPageData.Features} /> */}
-            <About data={landingPageData.About} />
+            {/* <About data={landingPageData.About} /> */}
             <Footer data={landingPageData.Contact} />
         </div>
     );

@@ -22,6 +22,11 @@ export const Footer = (props) => {
                     </a>
                   </li>
                   <li>
+                    <a href={props.data ? props.data.slack : '/'} target='_blank' rel='noreferrer'>
+                      <i className="fa fa-slack"></i>
+                    </a>
+                  </li>
+                  <li>
                     <a href={props.data ? props.data.github : '/'} target='_blank' rel='noreferrer'>
                       <i className='fa fa-github'></i>
                     </a>

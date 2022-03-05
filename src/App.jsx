@@ -1,6 +1,12 @@
 import { Landing } from "./components/Landing";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
