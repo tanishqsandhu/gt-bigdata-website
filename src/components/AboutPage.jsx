@@ -17,4 +17,4 @@ export const AboutPage = () => {
             <Footer data={aboutPageData.Contact} />
         </div>
     );
-}
+};
