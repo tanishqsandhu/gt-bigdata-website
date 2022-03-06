@@ -1,6 +1,14 @@
 import { Landing } from "./components/Landing";
+import { AboutPage } from "./components/AboutPage";
+import {AlumniPage} from "./components/AlumniPage"
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -9,9 +17,20 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   return (
-    <div>
-      <Landing/>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Landing/>
+        </Route>
+        <Route exact path="/about">
+          <AboutPage/>
+        </Route>
+        <Route exact path="/alumni">
+          <AlumniPage/>
+        </Route>
+
+      </Switch>
+    </Router>
   );
 };
 

@@ -155,9 +155,11 @@
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "facebook": "https://www.facebook.com/gtbigdatabigimpact/",
+    "twitter": "https://twitter.com/gtbigdataclub",
+    "github": "https://github.com/gt-big-data",
+    "slack": "https://bigdataclub.slack.com/",
+    "instagram": "https://www.instagram.com/gtbigdata/?hl=en"
   },
   "Features": [
     {

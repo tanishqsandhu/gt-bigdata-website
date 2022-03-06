@@ -2,7 +2,7 @@ export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
-        <div className='navbar-header'>
+        <div className='navbar-header header'>
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -15,8 +15,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            Big data big impact
+
+          <a className='navbar-brand page-scroll desc link' href='/'>
+            <img src="img/logo.jpg" className="img-responsive logo" alt="" />{" "}
           </a>{' '}
         </div>
 
@@ -26,38 +27,33 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              <a href='about' className='page-scroll'>
+                About
+              </a>
+            </li>
+            <li>
+              <a href='projects' className='page-scroll'>
                 Projects
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
-                Board
+              <a href='leadership' className='page-scroll'>
+                Leadership
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='alumni' className='page-scroll'>
                 Alumni
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a href='sponsors' className='page-scroll'>
                 Sponsors
               </a>
             </li>
-            {/* <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
             <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li> */}
-            <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
+              <a href='contact' className='page-scroll'>
+                Get Involved
               </a>
             </li>
           </ul>

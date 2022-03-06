@@ -71,6 +71,58 @@ hr {
   border: 0;
 }
 /* Navigation */
+@media (max-width: 1000px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+.link {
+  position: relative;
+  width: 200px;
+  padding-left: 1em;
+}
+
+.logo {
+  width: 200px;
+  height: 45px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -95,7 +147,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 9px 15px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -270,6 +322,7 @@ header .intro-text {
 }
 #about h2 {
   position: relative;
+  margin-top: 4px;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -278,7 +331,7 @@ header .intro-text {
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
-  width: 60px;
+  width: 10%;
   bottom: 0;
   left: 0;
 }
@@ -299,6 +352,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
+  margin-bottom: 20px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
@@ -458,12 +512,22 @@ header .intro-text {
   color: #888;
 }
 /* Contact Section */
+
+.acknowledgement {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 #contact {
-  padding: 100px 0 60px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
-#contact .section-title {
+/* #contact .section-title {
   margin-bottom: 40px;
 }
 #contact .section-title p {
@@ -490,30 +554,30 @@ header .intro-text {
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
-}
-#contact form {
+} */
+/* #contact form {
   padding-top: 20px;
-}
-#contact .text-danger {
+} */
+/* #contact .text-danger {
   color: #cc0033;
   text-align: left;
-}
-#contact .btn-custom {
+} */
+/* #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
-}
-#contact .btn-custom:hover {
+} */
+/* #contact .btn-custom:hover {
   color: #1f386e;
   background: #fff;
-}
+} */
 label {
   font-size: 12px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#contact .form-control {
+/* #contact .form-control {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -547,8 +611,8 @@ label {
 }
 .form-control:-ms-input-placeholder {
   color: #777;
-}
-#contact .contact-item {
+} */
+/* #contact .contact-item {
   margin: 20px 0;
 }
 #contact .contact-item span {
@@ -558,11 +622,12 @@ label {
 }
 #contact .contact-item i.fa {
   margin-right: 10px;
-}
+} */
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.15); */
+  /* padding-top: 50px;
+  margin-top: 50px; */
+  padding-top: 1em;
   text-align: center;
 }
 #contact .social ul li {
@@ -583,24 +648,37 @@ label {
   color: #608dfd;
   background: #fff;
 }
-/* Footer Section*/
-#footer {
-  background: #f6f6f6;
-  padding: 30px 0;
-}
-#footer p {
-  color: #888;
-  font-size: 14px;
-}
-#footer a {
-  color: #608dfd;
-}
-#footer a:hover {
-  border-bottom: 2px solid #608dfd;
-}
 
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
   }
+}
+
+/* Alumni Page */
+.sign {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign .text {
+  position: relative;
+  font-weight: 800;
+  font-size: 36;
+  color: #333;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.sign .text::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 5px;
+  width: 25%;
+  bottom: 0;
+  left: 0;
 }
