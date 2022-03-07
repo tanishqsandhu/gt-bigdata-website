@@ -1,13 +1,3 @@
-
-const whyCard = (props) => {
-  return (
-    <div>
-      sdf
-    </div>
-  );
-};
-
-
 export const About = (props) => {
   return (
     <div id="about">
@@ -21,10 +11,10 @@ export const About = (props) => {
             <div className="about-text">
               <h2>About Us</h2>
               <div className="keywords">{props.data ? props.data.keywords : 'loading...'}</div>
-              <p className="">{props.data ? props.data.paragraph : "loading..."}</p>
+              <p className="">{props.data ? props.data.paragraph1 : "loading..."}</p>
+              <p className="">{props.data ? props.data.paragraph2 : "loading..."}</p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
