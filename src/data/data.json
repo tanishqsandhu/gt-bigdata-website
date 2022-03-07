@@ -4,6 +4,7 @@
     "paragraph": "Developing intelligent and data-driven solutions to global challenges."
   },
   "About": {
+    "keywords": "Impact, Excellence, and Growth",
     "paragraph": "Big Data Big Impact is a Georgia Institute of Technology organization focused on leveraging big data to provide insight into some of the world's greatest challenges, from poverty to climate action.",
     "Why": [
       "Social Impact",
@@ -16,7 +17,23 @@
       "Startup-like operations",
       "Networking Events",
       "Tech Talks and More!"
-    ]
+    ],
+    "impactCard": {
+      "text": "Have an opportunity to contribute to a project addressing an issue of social impact",
+      "img": "/public/img/aboutIcons/solidarity.png"
+    },
+    "skillCard": {
+      "text": "Develop software development skills and production-level code with team and project-based learning",
+      "img": "/public/img/aboutIcons/skills.png"
+    },
+    "professionalCard": {
+      "text": "Grow with mentorship and professional development opportunities, listening to tech talks from guest speakers",
+      "img": "/public/img/aboutIcons/techtalk.png"
+    }, 
+    "networkCard": {
+      "text": "Network and meet other students at social events, game nights, and more!",
+      "img": "/public/img/aboutIcons/network.png"
+    }
   },
   "Gallery": [
     {

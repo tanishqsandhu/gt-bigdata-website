@@ -1,3 +1,13 @@
+
+const whyCard = (props) => {
+  return (
+    <div>
+      sdf
+    </div>
+  );
+};
+
+
 export const About = (props) => {
   return (
     <div id="about">
@@ -10,8 +20,21 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
+              <div className="keywords">{props.data ? props.data.keywords : 'loading...'}</div>
+              <p className="">{props.data ? props.data.paragraph : "loading..."}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
+
+
+/* <h3>Why Choose Us?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
@@ -31,11 +54,4 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+              </div> */

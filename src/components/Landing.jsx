@@ -4,7 +4,7 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
 
-const TestimonialCard = ({children}) => {
+const TestimonialCard = ({ children }) => {
     return (
         <div className="col-md-4 test-card">
             {children}
@@ -15,7 +15,7 @@ const TestimonialCard = ({children}) => {
 export const Landing = () => {
     const [landingPageData, setLandingPageData] = useState({});
     useEffect(() => {
-      setLandingPageData(JsonData);
+        setLandingPageData(JsonData);
     }, []);
     return (
         <div>
