@@ -24,6 +24,7 @@ export const SponsorsPage = () => {
         <div>
             <Navigation/>
             <SponsorList/>
+            
             <Footer data={sponsorsPageData.Contact} />
         </div>
     );
