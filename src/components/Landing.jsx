@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
 import { Header } from "./header";
 import { Footer } from "./footer";
@@ -13,14 +13,14 @@ const TestimonialCard = ({ children }) => {
 };
 
 export const Landing = () => {
-    const [landingPageData, setLandingPageData] = useState({});
-    useEffect(() => {
-        setLandingPageData(JsonData);
-    }, []);
+    // const [landingPageData, setLandingPageData] = useState({});
+    // useEffect(() => {
+    //     setLandingPageData(JsonData);
+    // }, []);
     return (
         <div>
             <Navigation />
-            <Header data={landingPageData.Header} />
+            <Header data={JsonData.Header} />
             <h2 className="testimonial">
                 <span>TESTIMONIALS</span>
             </h2>
@@ -31,7 +31,7 @@ export const Landing = () => {
                     <TestimonialCard>"Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vitae deleniti dolores ratione consequuntur, voluptates tempore ad suscipit sint amet, dolorem iste distinctio culpa veniam unde nobis rerum architecto soluta."</TestimonialCard>
                 </div>
             </div>
-            <Footer data={landingPageData.Contact} />
+            <Footer data={JsonData.Contact} />
         </div>
     );
 };

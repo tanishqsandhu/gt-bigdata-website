@@ -21,19 +21,19 @@
     ],
     "impactCard": {
       "text": "Have an opportunity to contribute to a project addressing an issue of social impact",
-      "img": "/public/img/aboutIcons/solidarity.png"
+      "img": "img/aboutIcons/solidarity.png"
     },
     "skillCard": {
       "text": "Develop software development skills and production-level code with team and project-based learning",
-      "img": "/public/img/aboutIcons/skills.png"
+      "img": "img/aboutIcons/skills.png"
     },
     "professionalCard": {
       "text": "Grow with mentorship and professional development opportunities, listening to tech talks from guest speakers",
-      "img": "/public/img/aboutIcons/techtalk.png"
+      "img": "img/aboutIcons/techtalk.png"
     }, 
     "networkCard": {
       "text": "Network and meet other students at social events, game nights, and more!",
-      "img": "/public/img/aboutIcons/network.png"
+      "img": "img/aboutIcons/network.png"
     }
   },
   "Gallery": [
@@ -177,7 +177,8 @@
     "twitter": "https://twitter.com/gtbigdataclub",
     "github": "https://github.com/gt-big-data",
     "slack": "https://bigdataclub.slack.com/",
-    "instagram": "https://www.instagram.com/gtbigdata/?hl=en"
+    "instagram": "https://www.instagram.com/gtbigdata/?hl=en",
+    "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact"
   },
   "Features": [
     {
