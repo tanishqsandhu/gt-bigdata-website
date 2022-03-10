@@ -15,7 +15,7 @@ export const AboutPage = () => {
         <div>
             <Navigation />
             <About data={JsonData.About}/>
-            <WhyBDBI data={JsonData.About} />
+            <WhyBDBI data={JsonData.About}/>
             <Footer data={JsonData.Contact}/>
         </div>
     );

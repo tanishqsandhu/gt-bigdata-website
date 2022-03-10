@@ -255,6 +255,7 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
 /* Header Section */
 .intro {
   display: table;
@@ -374,8 +375,24 @@ header .intro-text {
   margin: 30px 0;
 }
 
-.card {
-  max-width: 50%;
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 1em;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
 }
 
 /* Services Section */
@@ -694,7 +711,7 @@ label {
 
 .testimonial {
   text-align: center;
-  margin-top: 0.5em;
+  margin: 1em;
 }
 
 .testimonial > span {

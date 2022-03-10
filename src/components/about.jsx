@@ -10,7 +10,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
-              <div className="keywords">{props.data ? props.data.keywords : 'loading...'}</div>
+              <div className="keywords" style={{color: "#6372ff"}}>{props.data ? props.data.keywords : 'loading...'}</div>
               <p className="">{props.data ? props.data.paragraph1 : "loading..."}</p>
               <p className="">{props.data ? props.data.paragraph2 : "loading..."}</p>
             </div>
