@@ -19,22 +19,40 @@
       "Networking Events",
       "Tech Talks and More!"
     ],
-    "impactCard": {
-      "text": "Have an opportunity to contribute to a project addressing an issue of social impact",
-      "img": "img/aboutIcons/solidarity.png"
+    "whyBDBI": {
+      "impactCard": {
+        "text": "Contribute to a project addressing an issue of social impact",
+        "img": "img/aboutIcons/solidarity.png"
+      },
+      "skillCard": {
+        "text": "Develop software development skills with team and project-based learning",
+        "img": "img/aboutIcons/skills.png"
+      },
+      "professionalCard": {
+        "text": "Grow with mentorship and professional development opportunities",
+        "img": "img/aboutIcons/techtalk.png"
+      }, 
+      "networkCard": {
+        "text": "Network and meet other students at social events, game nights, and more!",
+        "img": "img/aboutIcons/network.png"
+      }
     },
-    "skillCard": {
-      "text": "Develop software development skills and production-level code with team and project-based learning",
-      "img": "img/aboutIcons/skills.png"
-    },
-    "professionalCard": {
-      "text": "Grow with mentorship and professional development opportunities, listening to tech talks from guest speakers",
-      "img": "img/aboutIcons/techtalk.png"
-    }, 
-    "networkCard": {
-      "text": "Network and meet other students at social events, game nights, and more!",
-      "img": "img/aboutIcons/network.png"
+    "projRoles": {
+      "analysisRole": {
+        "title": "Analysis",
+        "desc": "Want to be involved with Data Science and Machine and Deep Learning? This role is for you! In this role, you will analyze datasets and develop predictive models that can translate to advancing social impact."
+      },
+      "platformRole": {
+        "title": "Platform",
+        "desc": "If you are interested in backend and API development, this role is for you! As a platform developer, you will architect the backend that helps power the projects' web app."
+      },
+      "datavizRole": {
+        "title": "Data Viz",
+        "desc": "If you love expressing data in impactful representations, then this role is for you! Incorporating aspects of front-end development and UI-UX design, you will develop compelling visualizations and the frontend that bring the project to life."
+      }
     }
+    
+
   },
   "Gallery": [
     {

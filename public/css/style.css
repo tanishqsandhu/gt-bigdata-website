@@ -390,9 +390,28 @@ header .intro-text {
 
 .card-text {
   text-align: center;
-  padding: 1em;
+  padding: 0 1em 1em 1em;
   font-size: 1.2em;
   margin-bottom: 1.5em;
+}
+
+.role-card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 1em;
+}
+
+.role-card h3 {
+  margin: auto;
+  margin-right: 6em;
+  width: 10px;
+}
+
+.role-card div {
+  margin: auto;
+  padding: 1em;
+  font-size: 1.2em;
 }
 
 /* Services Section */
