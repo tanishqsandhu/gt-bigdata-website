@@ -19,7 +19,7 @@ export const AboutPage = () => {
             <About data={JsonData.About}/>
             <WhyBDBI data={JsonData.About.whyBDBI}/>
             <ProjRoles data={JsonData.About.projRoles}/>
-            <Committees></Committees>
+            <Committees data={JsonData}></Committees>
             <Footer data={JsonData.Contact}/>
         </div>
     );

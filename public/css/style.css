@@ -459,10 +459,10 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
+  /* margin: 1px -15px 0 -14px; */
   padding: 0;
 }
 .portfolio-item .hover-bg {
@@ -473,7 +473,7 @@ header .intro-text {
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
   color: #fff;
   background: linear-gradient(
     to right,
