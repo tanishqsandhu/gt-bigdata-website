@@ -76,6 +76,14 @@
       "img": "img/commIcons/commicon.png"
     }
   ],
+  "Events": [
+    "Tech talks",
+    "Resume reviews",
+    "Project Demos",
+    "Social events",
+    "Game nights",
+    "And more!"
+  ],
   "Corporate Sponsors": [
     {
       "icon": "fa fa-wordpress",
