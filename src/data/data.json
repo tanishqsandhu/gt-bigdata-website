@@ -57,22 +57,22 @@
   "Gallery": [
     {
       "title": "Marketing Team",
-      "desc": "",
+      "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
       "img": "img/commIcons/commicon.png"
     },
     {
       "title": "Web Development",
-      "desc": "",
+      "desc": "The web development team maintains BDBI's online presence, including designing this website!",
       "img": "img/commIcons/commicon.png"
     },
     {
       "title": "Sponsorship Team",
-      "desc": "",
+      "desc": "The sponsorship team connects BDBI with local nonprofits and Atlanta-based companies to partner with for data science projects!",
       "img": "img/commIcons/commicon.png"
     },
     {
       "title": "Internal Operations Team",
-      "desc": "",
+      "desc": "The internal operations team manages club operations and resources, ensuring the best experience for all!",
       "img": "img/commIcons/commicon.png"
     }
   ],

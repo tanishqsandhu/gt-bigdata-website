@@ -3,8 +3,11 @@
 function CommitteeImage({title, desc, img}) {
     return (
         <div className="comm-img">
+            <div>
+                <h4>{title}</h4>
+                <div>{desc}</div>
+            </div>
             <img src={img} alt={title}/>
-            <div>{title}</div>
         </div>
     );
 }
@@ -33,7 +36,7 @@ export const Committees = (props) => {
     return (
         <div className="container">
             <div className="row">
-                <h1 style={{textAlign: 'center', margin: '2em 1em 0em 1em', color: '#5ca9fb'}}>Committees</h1>
+                <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#5ca9fb'}}>Committees</h1>
                 <CommitteeGallery data={props.data.Gallery}/>
             </div>
         </div>
