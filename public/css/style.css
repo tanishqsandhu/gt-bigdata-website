@@ -458,6 +458,32 @@ header .intro-text {
   cursor: pointer;
 }
 
+.events li span::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 1em;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
+.events {
+  margin: auto;
+  background-color: #f6f6f6;
+  margin-bottom: 1em;
+}
+
+.events ul li {
+  font-size: 1.2em;
+  padding: 0 1em 0 1em;
+  margin: 2.5em 0 1em 0;
+  padding-left: 10%;
+}
+
+.events li span {
+  margin: auto;
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;

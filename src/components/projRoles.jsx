@@ -18,7 +18,7 @@ function RoleCard(props) {
 export const ProjRoles = (props) => {
     return (
         <div className="container">
-            <h1 style={{textAlign: 'center',color: '#6372ff', margin: '2em 1em 1em 1em'}}>Team Roles</h1>
+            <h1 style={{textAlign: 'center',color: '#6372ff', margin: '2em 1em 1em 1em'}}>TEAM ROLES</h1>
             <h3 >Learn more about each of the 3 roles every project has! 
                 Each category is coordinated with workshops that help
                 students develop production-level code.
