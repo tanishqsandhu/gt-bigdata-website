@@ -139,6 +139,13 @@
       "twitter": "https://twitter.com/gtbigdataclub"
     }
   ],
+  "Companies": [
+    "img/company_icons/apple.png",
+    "img/company_icons/amazon.png",
+    "img/company_icons/meta.png",
+    "img/company_icons/google.png",
+    "img/company_icons/msft.png"
+  ],
   "Board": [
     {
       "img": "img/testimonials/01.jpg",

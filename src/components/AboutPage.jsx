@@ -25,7 +25,7 @@ export const AboutPage = () => {
             <Events data={JsonData.Events}></Events>
             <div className="container">
                 <div className="row">
-                    <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#5ca9fb'}}>PAST SPEAKERS</h1>
+                    <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#5ca9fb'}}>Past speakers</h1>
                     <div className="speakers">
                         <ul>
                             {JsonData.Speakers ?  JsonData.Speakers.map((d, i) => (
@@ -36,6 +36,19 @@ export const AboutPage = () => {
                         </ul>
                     </div>
 
+                </div>
+            </div>
+
+            <div className="container-fluid">
+                <div className="row">
+                <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#6372ff'}}>Where our students end up</h1>
+                <div className="companies">
+                    {JsonData.Companies ? JsonData.Companies.map((d, i) => (
+                        <div className="">
+                            <img src={d} alt="img" />
+                        </div>
+                    )) : "loading"}
+                </div>
                 </div>
             </div>
             <Footer data={JsonData.Contact}/>
