@@ -418,6 +418,8 @@ header .intro-text {
   margin: 1em;
   margin-bottom: 2em;
   position: relative;
+  background-color: #f6f6f6;
+  opacity: 1;
 }
 
 .comm-img img {
@@ -484,6 +486,23 @@ header .intro-text {
   margin: auto;
 }
 
+.speaker-img {
+  border-radius: 50%;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+}
+
+.person-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.person a {
+  color: #608dfd;
+}
 /* Services Section */
 #services {
   padding: 100px 0;

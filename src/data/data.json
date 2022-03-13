@@ -116,6 +116,29 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
+  "Speakers": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "title": "President of Company",
+      "name": "John Doe",
+      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
+      "twitter": "https://twitter.com/gtbigdataclub"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "title": "President of Company",
+      "name": "Johnathan Doe",
+      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
+      "twitter": "https://twitter.com/gtbigdataclub"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "title": "President of Company",
+      "name": "John Doe",
+      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
+      "twitter": "https://twitter.com/gtbigdataclub"
+    }
+  ],
   "Board": [
     {
       "img": "img/testimonials/01.jpg",
