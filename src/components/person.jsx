@@ -7,14 +7,14 @@ export const Person = (props) => {
         <div className="person">
             <img src={props.image} alt="" className="speaker-img" />
             <div className="person-text">
-                <span>{props.name}</span>
+                <h3>{props.name}</h3>
                 <span>{props.title}</span>
             </div>
             <a href={props.ld ? props.ld : '/'} target='_blank' rel='noreferrer'>
-                <i className='fa fa-linkedin'></i>
+                <i className='fa fa-linkedin fa-2x'></i>
             </a>
             <a href={props.tw ? props.tw : '/'} target='_blank' rel='noreferrer'>
-                <i className='fa fa-twitter'></i>
+                <i className='fa fa-twitter fa-2x'></i>
             </a>
         </div>
     );

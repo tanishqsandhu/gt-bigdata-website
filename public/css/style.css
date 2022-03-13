@@ -488,21 +488,45 @@ header .intro-text {
 
 .speaker-img {
   border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+
+  padding-right: 1em;
 }
 
 .person {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  /* background-color: rgb(58, 4, 4); */
+  margin: 1em;
 }
 
 .person-text {
   display: flex;
   flex-direction: column;
+  flex-basis: 20%;
+  /* background-color: #6372ff; */
+}
+
+@media (max-width: 991px) {
+  .person-text {
+    flex-basis: 35%;
+  }
+}
+.person-text h3 {
+  font-size: 1.5em;
 }
 
 .person a {
   color: #608dfd;
+  margin: auto 0 auto 20px;
+  padding: 1em;
 }
+
 /* Services Section */
 #services {
   padding: 100px 0;
