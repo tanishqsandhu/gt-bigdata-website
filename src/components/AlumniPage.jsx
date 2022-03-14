@@ -1,6 +1,6 @@
 import {Navigation} from "./navigation";
 import {Footer} from "./footer";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import JsonData from "../data/data.json";
 import {Flex} from '@adobe/react-spectrum'
 
@@ -15,16 +15,16 @@ const ComingSoon = () => {
 };
 
 export const AlumniPage = () => {
-    const [alumniPageData, setAlumniPageData] = useState({});
-    useEffect(() => {
-        setAlumniPageData(JsonData);
-    }, []);
+    // const [alumniPageData, setAlumniPageData] = useState({});
+    // useEffect(() => {
+    //     setAlumniPageData(JsonData);
+    // });
 
     return (
         <div>
             <Navigation/>
             <ComingSoon/>
-            <Footer data={alumniPageData.Contact} />
+            <Footer data={JsonData.Contact} />
         </div>
     );
 };

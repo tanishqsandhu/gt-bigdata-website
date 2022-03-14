@@ -255,6 +255,7 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
 /* Header Section */
 .intro {
   display: table;
@@ -314,7 +315,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 120px 0 0 0;
 }
 #about h3 {
   font-size: 22px;
@@ -325,6 +326,7 @@ header .intro-text {
   margin-top: 4px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  font-size: 48px;
 }
 #about h2::after {
   position: absolute;
@@ -341,6 +343,17 @@ header .intro-text {
   list-style: none;
   padding: 0;
 }
+
+#about .about-text .keywords {
+  font-size: 28px;
+  font-style: italic;
+}
+
+#about .about-text p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
@@ -350,7 +363,7 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
   background: #fff;
@@ -361,6 +374,177 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 1em;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  padding: 0 1em 1em 1em;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.role-card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 1em;
+}
+
+.role-card h3 {
+  margin: auto;
+  margin-right: 6em;
+  width: 10px;
+}
+
+.role-card div {
+  margin: auto;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.comm-img {
+  margin: 1em;
+  margin-bottom: 2em;
+  position: relative;
+  background-color: #f6f6f6;
+  opacity: 1;
+}
+
+.comm-img img {
+  width: 100%;
+}
+
+.comm-img > div {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  padding: 1em;
+}
+
+.comm-img div h4 {
+  color: #fff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.comm-img > div > div {
+  margin: auto;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+.comm-img div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.events li span::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 1em;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
+.events {
+  margin: auto;
+  background-color: #f6f6f6;
+  margin-bottom: 1em;
+}
+
+.events ul li {
+  font-size: 1.2em;
+  padding: 0 1em 0 1em;
+  margin: 2.5em 0 1em 0;
+  padding-left: 10%;
+}
+
+.events li span {
+  margin: auto;
+}
+
+.speaker-img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+
+  padding-right: 1em;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  /* background-color: rgb(58, 4, 4); */
+  margin: 1em;
+}
+
+.person-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  /* background-color: #6372ff; */
+}
+
+@media (max-width: 991px) {
+  .person-text {
+    flex-basis: 35%;
+  }
+}
+.person-text h3 {
+  font-size: 1.5em;
+}
+
+.person a {
+  color: #608dfd;
+  margin: auto 0 auto 20px;
+  padding: 1em;
+}
+
+.companies {
+  background-color: #f6f6f6;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.companies div {
+  text-align: center;
+  margin: 2em 0 2em 0;
+}
+
+.companies div img {
+  width: 25%;
+  min-width: 72px;
+  min-height: 72px;
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -406,10 +590,10 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
+  /* margin: 1px -15px 0 -14px; */
   padding: 0;
 }
 .portfolio-item .hover-bg {
@@ -420,7 +604,7 @@ header .intro-text {
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
   color: #fff;
   background: linear-gradient(
     to right,
@@ -660,6 +844,7 @@ label {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  font-size: 48px;
 }
 
 .text::after {
@@ -676,7 +861,7 @@ label {
 
 .testimonial {
   text-align: center;
-  margin-top: 0.5em;
+  margin: 1em;
 }
 
 .testimonial > span {

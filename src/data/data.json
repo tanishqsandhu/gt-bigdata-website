@@ -4,7 +4,9 @@
     "paragraph": "Developing intelligent and data-driven solutions to global challenges."
   },
   "About": {
-    "paragraph": "Big Data Big Impact is a Georgia Institute of Technology organization focused on leveraging big data to provide insight into some of the world's greatest challenges, from poverty to climate action.",
+    "keywords": "Impact, Excellence, and Growth",
+    "paragraph1": "We are a Georgia Institute of Technology organization focused on leveraging big data to provide insight into some of the world's greatest challenges, from poverty to climate action.",
+    "paragraph2": "We pride ourselves on offering students valuable opportunities to pursue excellence and growth in computer science and career development.",
     "Why": [
       "Social Impact",
       "Project-based Learning",
@@ -16,54 +18,71 @@
       "Startup-like operations",
       "Networking Events",
       "Tech Talks and More!"
-    ]
+    ],
+    "whyBDBI": {
+      "impactCard": {
+        "text": "Contribute to a project addressing an issue of social impact",
+        "img": "img/aboutIcons/solidarity.png"
+      },
+      "skillCard": {
+        "text": "Develop software development skills with team and project-based learning",
+        "img": "img/aboutIcons/skills.png"
+      },
+      "professionalCard": {
+        "text": "Grow with mentorship and professional development opportunities",
+        "img": "img/aboutIcons/techtalk.png"
+      }, 
+      "networkCard": {
+        "text": "Network and meet other students at social events, game nights, and more!",
+        "img": "img/aboutIcons/network.png"
+      }
+    },
+    "projRoles": {
+      "analysisRole": {
+        "title": "Analysis",
+        "desc": "Want to be involved with Data Science and Machine and Deep Learning? This role is for you! In this role, you will analyze datasets and develop predictive models that can translate to advancing social impact."
+      },
+      "platformRole": {
+        "title": "Platform",
+        "desc": "If you are interested in backend and API development, this role is for you! As a platform developer, you will architect the backend that helps power the projects' web app."
+      },
+      "datavizRole": {
+        "title": "Data Viz",
+        "desc": "If you love expressing data in impactful representations, then this role is for you! Incorporating aspects of front-end development and UI-UX design, you will develop compelling visualizations and the frontend that bring the project to life."
+      }
+    }
+    
+
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Marketing Team",
+      "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
+      "img": "img/commIcons/commicon.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Web Development",
+      "desc": "The web development team maintains BDBI's online presence, including designing this website!",
+      "img": "img/commIcons/commicon.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Sponsorship Team",
+      "desc": "The sponsorship team connects BDBI with local nonprofits and Atlanta-based companies to partner with for data science projects!",
+      "img": "img/commIcons/commicon.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Internal Operations Team",
+      "desc": "The internal operations team manages club operations and resources, ensuring the best experience for all!",
+      "img": "img/commIcons/commicon.png"
     }
+  ],
+  "Events": [
+    "Tech talks",
+    "Resume reviews",
+    "Project Demos",
+    "Social events",
+    "Game nights",
+    "And more!"
   ],
   "Corporate Sponsors": [
     {
@@ -96,6 +115,36 @@
       "name": "Consectetur adipiscing",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
+  ],
+  "Speakers": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "title": "President of Company",
+      "name": "John Doe",
+      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
+      "twitter": "https://twitter.com/gtbigdataclub"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "title": "President of Company",
+      "name": "Johnathan Doe",
+      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
+      "twitter": "https://twitter.com/gtbigdataclub"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "title": "President of Company",
+      "name": "John Doe",
+      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
+      "twitter": "https://twitter.com/gtbigdataclub"
+    }
+  ],
+  "Companies": [
+    "img/company_icons/apple.png",
+    "img/company_icons/amazon.png",
+    "img/company_icons/meta.png",
+    "img/company_icons/google.png",
+    "img/company_icons/msft.png"
   ],
   "Board": [
     {
@@ -159,7 +208,8 @@
     "twitter": "https://twitter.com/gtbigdataclub",
     "github": "https://github.com/gt-big-data",
     "slack": "https://bigdataclub.slack.com/",
-    "instagram": "https://www.instagram.com/gtbigdata/?hl=en"
+    "instagram": "https://www.instagram.com/gtbigdata/?hl=en",
+    "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact"
   },
   "Features": [
     {
