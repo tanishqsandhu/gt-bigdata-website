@@ -3,11 +3,11 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            {/* <img src="img/about.jpg" className="img-responsive" alt="" />{" "} */}
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12">
             <div className="about-text">
               <h2>About Us</h2>
               <div className="keywords" style={{color: "#6372ff"}}>{props.data ? props.data.keywords : 'loading...'}</div>
