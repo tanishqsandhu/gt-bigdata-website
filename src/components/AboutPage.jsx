@@ -22,26 +22,27 @@ export const AboutPage = () => {
             <WhyBDBI data={JsonData.About.whyBDBI}/>
             <ProjRoles data={JsonData.About.projRoles}/>
             <Committees data={JsonData}></Committees>
-            <Events data={JsonData.Events}></Events>
-            <div className="container">
-                <div className="row">
-                    <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#5ca9fb'}}>Past speakers</h1>
-                    <div className="speakers">
-                        <ul>
-                            {JsonData.Speakers ?  JsonData.Speakers.map((d, i) => (
-                                <li className="col-xs-12">
-                                    <Person name={d.name} title={d.title} ld = {d.linkedin} tw = {d.twitter} image = {d.img}></Person>
-                                </li>
-                            )): "loading"}
-                        </ul>
+            <div className="gradient">
+                <Events data={JsonData.Events}></Events>
+                <div className="container">
+                    <div className="row">
+                        <h1 style={{textAlign: 'center', margin: '1em 1em 0em 1em', color: '#ffffff '}}>Past speakers</h1>
+                        <div className="speakers">
+                            <ul>
+                                {JsonData.Speakers ?  JsonData.Speakers.map((d, i) => (
+                                    <li className="col-xs-12">
+                                        <Person name={d.name} title={d.title} ld = {d.linkedin} tw = {d.twitter} image = {d.img}></Person>
+                                    </li>
+                                )): "loading"}
+                            </ul>
+                        </div>
                     </div>
-
                 </div>
             </div>
 
             <div className="container-fluid">
                 <div className="row">
-                <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#6372ff'}}>Where our students end up</h1>
+                <h1 style={{textAlign: 'center', margin: '1em 1em 1em 1em', color: '#6372ff'}}>Where our students end up</h1>
                 <div className="companies">
                     {JsonData.Companies ? JsonData.Companies.map((d, i) => (
                         <div className="">
