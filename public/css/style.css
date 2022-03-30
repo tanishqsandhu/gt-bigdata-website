@@ -503,6 +503,7 @@ header .intro-text {
   margin-bottom: 2em;
   position: relative;
   background-color: #f6f6f6;
+  border-radius: 20px;
   opacity: 1;
 }
 
@@ -524,6 +525,7 @@ header .intro-text {
   opacity: 0;
   transition: opacity 0.5s ease-out;
   padding: 1em;
+  border-radius: 20px;
 }
 
 .comm-img div h4 {
