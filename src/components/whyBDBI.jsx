@@ -15,7 +15,7 @@ export const WhyBDBI = (props) => {
 
   return (
     <div className="container">
-      <h1 style={{textAlign: 'center', margin: '2em 1em 1em 1em', color: '#5ca9fb'}}>Why BDBI?</h1>
+      <h1 style={{textAlign: 'center', margin: '5em 1em 1em 1em', color: '#5ca9fb'}}>Why BDBI?</h1>
       <div className="row">
         <BDBICard data ={props.data.impactCard}/>
         <BDBICard data ={props.data.skillCard}/>

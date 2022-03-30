@@ -381,8 +381,8 @@ header .intro-text {
 }
 
 .card-img img {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 200px;
+  max-height: 200px;
   padding: 1em;
   text-align: center;
 }
@@ -390,7 +390,6 @@ header .intro-text {
 .card-text {
   text-align: center;
   padding: 0 1em 1em 1em;
-  font-size: 1.2em;
   margin-bottom: 1.5em;
 }
 
@@ -410,7 +409,7 @@ header .intro-text {
 .role-card div {
   margin: auto;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 .comm-img {
@@ -443,14 +442,14 @@ header .intro-text {
 
 .comm-img div h4 {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 2em;
   text-transform: uppercase;
   margin-top: 1em;
 }
 
 .comm-img > div > div {
   margin: auto;
-  font-size: 1.2em;
+  font-size: 20px;
   padding: 0.5em;
 }
 
@@ -475,7 +474,7 @@ header .intro-text {
 }
 
 .events ul li {
-  font-size: 1.2em;
+  font-size: 20px;
   padding: 0 1em 0 1em;
   margin: 2.5em 0 1em 0;
   padding-left: 10%;
@@ -517,7 +516,11 @@ header .intro-text {
   }
 }
 .person-text h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
+}
+
+.person-text span {
+  font-size: 18px;
 }
 
 .person a {
@@ -638,7 +641,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding: 100px 0;
+  padding: 20px 0;
   background: #f6f6f6;
 }
 #testimonials i {
@@ -667,12 +670,13 @@ header .intro-text {
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
 }
+
 .testimonial-meta {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: #666;
 }
@@ -843,7 +847,6 @@ label {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  font-size: 48px;
 }
 
 .text::after {
