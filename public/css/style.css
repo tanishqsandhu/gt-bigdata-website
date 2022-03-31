@@ -256,6 +256,30 @@ a:focus,
   outline-offset: none;
 }
 
+.landing {
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1648686581 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648686581 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 117px;
+}
+
+.custom-shape-divider-bottom-1648686581 .shape-fill {
+  fill: #ffffff;
+}
 /* Header Section */
 .intro {
   display: table;
@@ -297,6 +321,7 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -469,7 +494,7 @@ header .intro-text {
 }
 
 .container-comm {
-  background-color: #f6f6f6;
+  background-color: #ebebeb;
   margin-top: 6em;
   position: relative;
 }
@@ -502,7 +527,7 @@ header .intro-text {
   margin: 1em;
   margin-bottom: 2em;
   position: relative;
-  background-color: #f6f6f6;
+  background-color: #d6d6d6;
   border-radius: 20px;
   opacity: 1;
 }
@@ -557,7 +582,7 @@ header .intro-text {
 
 .events {
   margin: auto;
-  background-color: #f6f6f6;
+  background-color: #ebebeb;
   margin-bottom: 1em;
   border-radius: 20px;
 }
@@ -742,21 +767,26 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 20px 0;
-  background: #f6f6f6;
+  background: #ebebeb;
+  border-radius: 20px;
 }
+
 #testimonials i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
 }
+
 .testimonial {
   position: relative;
   padding: 20px;
 }
+
 .testimonial-image {
   float: left;
   margin-right: 15px;
 }
+
 .testimonial-image,
 .testimonial-image img {
   display: block;
@@ -780,6 +810,7 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+
 /* Team Section */
 #team {
   padding: 100px 0;

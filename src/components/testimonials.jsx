@@ -1,6 +1,6 @@
 export const Testimonials = (props) => {
   return (
-    <div id='testimonials' style={{marginBottom: '4em'}}>
+    <div id='testimonials' className="test" style={{marginBottom: '4em'}}>
       <div className='container'>
         <div className='row' style={{width: '100%'}}>
           {props.data
