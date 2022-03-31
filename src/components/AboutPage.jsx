@@ -39,7 +39,6 @@ export const AboutPage = () => {
                     </div>
                 </div>
             </div>
-
             <div className="container-fluid">
                 <div className="row">
                 <h1 style={{textAlign: 'center', margin: '1em 1em 1em 1em', color: '#6372ff'}}>Where our students end up</h1>

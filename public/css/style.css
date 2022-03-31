@@ -530,6 +530,21 @@ header .intro-text {
   background-color: #d6d6d6;
   border-radius: 20px;
   opacity: 1;
+  max-width: 525px;
+  max-height: 525px;
+  margin: auto;
+}
+
+.comm-team {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: rgba(99, 114, 255, 0.8);
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.comm-card {
+  margin-bottom: 4em;
 }
 
 .comm-img img {
@@ -571,6 +586,11 @@ header .intro-text {
   cursor: pointer;
 }
 
+.comm-img .desc {
+  margin-bottom: 2em;
+}
+
+
 .events li span::before {
   content: "\f00c";
   font-family: "FontAwesome";
@@ -582,6 +602,8 @@ header .intro-text {
 
 .events {
   margin: auto;
+  margin-right: 1em;
+  margin-left: 1em;
   background-color: #ebebeb;
   margin-bottom: 1em;
   border-radius: 20px;
@@ -663,10 +685,11 @@ header .intro-text {
 }
 
 .gradient {
-  background-image: url("../img/blurry-gradient-haikei.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-image: url('../img/blurry-gradient-haikei.png');
 }
+
 
 .gradient > .container {
   padding-bottom: 3em;

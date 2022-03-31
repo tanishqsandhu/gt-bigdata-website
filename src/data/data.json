@@ -21,19 +21,19 @@
     ],
     "whyBDBI": {
       "impactCard": {
-        "text": "Contribute to a project addressing an issue of social impact",
+        "text": "Contribute to social impact",
         "img": "img/aboutIcons/solidarity.png"
       },
       "skillCard": {
-        "text": "Develop software development skills with team and project-based learning",
+        "text": "Improve software development skills",
         "img": "img/aboutIcons/skills.png"
       },
       "professionalCard": {
-        "text": "Grow with mentorship and professional development opportunities",
+        "text": "Grow with mentorship opportunities",
         "img": "img/aboutIcons/techtalk.png"
       }, 
       "networkCard": {
-        "text": "Network and meet other students at social events, game nights, and more!",
+        "text": "Network at social events and more!",
         "img": "img/aboutIcons/network.png"
       }
     },
@@ -56,24 +56,28 @@
   },
   "Gallery": [
     {
-      "title": "Marketing Team",
+      "title": "Marketing",
       "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
-      "img": "img/commIcons/commicon.png"
+      "img": "img/commIcons/commicon.png",
+      "skills": "Graphic design, Event planning, Content creation, Analytics"
     },
     {
       "title": "Web Development",
       "desc": "The web development team maintains BDBI's online presence, including designing this website!",
-      "img": "img/commIcons/commicon.png"
+      "img": "img/commIcons/commicon.png",
+      "skills": "Front-end and backend development, Problem-solving"
     },
     {
-      "title": "Sponsorship Team",
+      "title": "Sponsorship",
       "desc": "The sponsorship team connects BDBI with local nonprofits and Atlanta-based companies to partner with for data science projects!",
-      "img": "img/commIcons/commicon.png"
+      "img": "img/commIcons/commicon.png",
+      "skills": "Communication, Planning"
     },
     {
-      "title": "Internal Operations Team",
+      "title": "Internal Ops",
       "desc": "The internal operations team manages club operations and resources, ensuring the best experience for all!",
-      "img": "img/commIcons/commicon.png"
+      "img": "img/commIcons/commicon.png",
+      "skills": "Leadership, Communication"
     }
   ],
   "Events": [
