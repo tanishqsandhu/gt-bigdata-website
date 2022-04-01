@@ -477,20 +477,100 @@ header .intro-text {
 .role-card {
   display: flex;
   flex-direction: row;
-  position: relative;
+  justify-content: space-evenly;
   margin: 1em;
+  margin-bottom: 2em;
 }
 
-.role-card h3 {
-  margin: auto;
-  margin-right: 6em;
-  width: 10px;
+.role-card .title {
+  padding-right: 5em;
+  margin: 2em;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  width: 8em;
 }
 
-.role-card div {
+.role-card .title div {
+  background-color: #5ca9fb;
+  border-radius: 45px;
+  padding: 0.6em;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 0px 0px 10px #6372ff;
+}
+
+.shade {
+  animation-name: shade;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shade {
+  from {
+    background-color: #5ca9fb;
+  }
+  to {
+    background-color: #5794d6;
+  }
+}
+
+.light {
+  animation-name: light;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+@keyframes light {
+  from {
+    background-color: #5794d6;
+  }
+  to {
+    background-color: #5ca9fb;
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.25s ease-in 0s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+    background-color: rgba(99, 114, 255, 0.5);
+    
+  }
+}
+
+.fade-out {
+  animation: fade-out 0.25s ease-in 0s forwards;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    background-color: rgba(99, 114, 255, 0.5);
+  }
+  to {
+    opacity: 0;
+    background-color: white;
+  }
+}
+
+
+.role-card .desc {
+  font-size: 18px;
   margin: auto;
   padding: 1em;
-  font-size: 18px;
+  border-radius: 45px;
 }
 
 .container-comm {

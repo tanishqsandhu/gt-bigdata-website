@@ -40,14 +40,14 @@
     "projRoles": {
       "analysisRole": {
         "title": "Analysis",
-        "desc": "Want to be involved with Data Science and Machine and Deep Learning? This role is for you! In this role, you will analyze datasets and develop predictive models that can translate to advancing social impact."
+        "desc": "Do you want to be involved with Data Science and Machine and Deep Learning? This role is for you! In this role, you will analyze datasets and develop predictive models that can translate to advancing social impact."
       },
       "platformRole": {
         "title": "Platform",
         "desc": "If you are interested in backend and API development, this role is for you! As a platform developer, you will architect the backend that helps power the projects' web app."
       },
       "datavizRole": {
-        "title": "Data Viz",
+        "title": "DataViz",
         "desc": "If you love expressing data in impactful representations, then this role is for you! Incorporating aspects of front-end development and UI-UX design, you will develop compelling visualizations and the frontend that bring the project to life."
       }
     }
