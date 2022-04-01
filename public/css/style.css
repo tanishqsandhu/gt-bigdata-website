@@ -1,3 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -474,6 +493,24 @@ header .intro-text {
   color: white;
 }
 
+.project-roles .row {
+  position: relative;
+}
+
+.project-roles .row .img {
+  position: absolute; 
+  filter: grayscale(100%);
+  top: 37.5%;
+  left: 35%;
+  visibility: hidden;
+}
+
+.project-roles img {
+  width: 70%;
+  opacity: 0.4;
+  border-radius: 20px;
+}
+
 .role-card {
   display: flex;
   flex-direction: row;
@@ -482,8 +519,8 @@ header .intro-text {
   margin-bottom: 2em;
 }
 
-.role-card .title {
-  padding-right: 5em;
+.role-card .role-title {
+  padding-right: 2em;
   margin: 2em;
   font-size: 20px;
   color: #333;
@@ -493,13 +530,23 @@ header .intro-text {
   width: 8em;
 }
 
-.role-card .title div {
+.role-card .role-title div {
   background-color: #5ca9fb;
   border-radius: 45px;
   padding: 0.6em;
   padding-left: 1em;
   padding-right: 1em;
   box-shadow: 0px 0px 10px #6372ff;
+  height: 52.56px;
+}
+
+.project-roles h3 {
+  margin: 2em;
+}
+
+
+.default {
+  opacity: 0;
 }
 
 .shade {
@@ -713,10 +760,10 @@ header .intro-text {
 .person {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: stretch;
-  /* background-color: rgb(58, 4, 4); */
   margin: 1.5em;
+  overflow: auto;
+  justify-content: center;
 }
 
 .person-text {
@@ -731,6 +778,7 @@ header .intro-text {
     flex-basis: 35%;
   }
 }
+
 .person-text h3 {
   font-size: 1.6em;
   color: #ffffff;
@@ -765,9 +813,7 @@ header .intro-text {
 }
 
 .gradient {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url('../img/blurry-gradient-haikei.png');
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
 
 
@@ -1044,6 +1090,11 @@ label {
 #contact .contact-item i.fa {
   margin-right: 10px;
 } */
+
+.social li {
+  margin-bottom: 0.5em;
+}
+
 #contact .social {
   /* border-top: 1px solid rgba(255, 255, 255, 0.15); */
   /* padding-top: 50px;
