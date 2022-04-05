@@ -26,9 +26,9 @@ function RoleCard(props) {
 
     function visibility() {
         if (hover.hover) {
-            return "desc fade-in"
+            return "descText fade-in"
         } else if (hover.load) {
-            return "desc fade-out"
+            return "descText fade-out"
         }
         return "default";
     }
@@ -51,9 +51,9 @@ function RoleCard(props) {
         <div>
             <div className="role-card">
                 <div className="role-title">
-                    <div className={setClass()} onClick={changeState}>
+                    <button className={setClass()} onClick={changeState}>
                         {props.data.title}
-                    </div>
+                    </button>
                 </div>
                 <div className={visibility()}>
                     {props.data.desc}
@@ -70,13 +70,13 @@ export const ProjRoles = (props) => {
     return (
         <div className=" project-roles container">
             <div className="row">
-                <div className="img">
-                    <img src="../img/project_team.png" alt="project" />
+                <div className="project-img">
+                    {/* <img src="../img/project_team.png" alt="project" /> */}
                 </div>
                 <h1 style={{textAlign: 'center',color: '#6372ff', margin: '2em 1em 2em 1em'}}>Project roles</h1>
                 <h3 >Learn more about each of the 3 roles every project has! 
                     Each category is coordinated with workshops that help
-                    students develop production-level code. <span style={{'color':'#6372ff'}}> Hover over the buttons to learn more!</span>
+                    students develop production-level code. <span style={{'color':'#6372ff'}}> Click the buttons to learn more!</span>
                 </h3>
                 <RoleCard data={props.data.analysisRole}></RoleCard>
                 <RoleCard data={props.data.platformRole}></RoleCard>
