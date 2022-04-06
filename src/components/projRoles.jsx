@@ -71,11 +71,11 @@ export const ProjRoles = (props) => {
         <div className=" project-roles container">
             <div className="row">
                 <div className="project-img">
-                    {/* <img src="../img/project_team.png" alt="project" /> */}
+                    <img src="../img/project_team.png" alt="project" />
                 </div>
                 <h1 style={{textAlign: 'center',color: '#6372ff', margin: '2em 1em 2em 1em'}}>Project roles</h1>
                 <h3 >Learn more about each of the 3 roles every project has! 
-                    Each category is coordinated with workshops that help
+                    Each role has workshops that help
                     students develop production-level code. <span style={{'color':'#6372ff'}}> Click the buttons to learn more!</span>
                 </h3>
                 <RoleCard data={props.data.analysisRole}></RoleCard>

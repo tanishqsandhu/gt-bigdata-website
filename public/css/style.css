@@ -505,13 +505,17 @@ header .intro-text {
   position: relative;
 }
 
+.project-img {
+  z-index: -1;
+}
+
 @media (min-width: 1200px) {
   .project-img {
     position: absolute; 
     filter: grayscale(100%);
     top: 40%;
     left: 30%;
-    transform: translateX(100px);
+    transform: translateX(130px);
   }
   
   .project-roles img {
@@ -521,33 +525,57 @@ header .intro-text {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .project-img {
+    position: absolute; 
+    filter: grayscale(100%);
+    top: 42%;
+    left: 30%;
+    transform: translateX(80px);
+  }
+  
+  .project-roles img {
+    width: 80%;
+    opacity: 0.2;
+    border-radius: 20px;
+  }
+  
+}
+
+@media (min-width: 675px) and (max-width: 991px) {
+  .project-img {
+    position: absolute; 
+    filter: grayscale(100%);
+    top: 47%;
+    left: 40%;
+  }
+  
+  .project-roles img {
+    width: 80%;
+    height: 375px;
+    opacity: 0.2;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 674px) {
   .project-img {
     position: absolute; 
     filter: grayscale(100%);
     top: 40%;
-    left: 30%;
-    transform: translateX(100px);
+    left: 4%;
+    right: 8%;
+    bottom: 47%;
+    transform: translateX(5%);
   }
   
   .project-roles img {
-    width: 70%;
+    width: 90%;
+    height: 550px;
     opacity: 0.2;
     border-radius: 20px;
   }
-  
 }
-
-@media (min-width: 601px) {
-  
-}
-
-@media (max-width: 600px) {
-  
-}
-
-
-
 
 
 .project-roles h3 {
@@ -561,7 +589,70 @@ header .intro-text {
   margin: 2em 1em 2em 1em;
 }
 
-@media (max-width: 600px) {
+.role-title {
+  margin: 2em;
+  padding-right: 2em;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  width: 8em;
+  max-height: 100px;
+}
+
+.role-card .role-title button {
+  background-color: #5ca9fb;
+  border-color: #449cfb;
+  border-radius: 45px;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 0px 0px 10px #6372ff;
+  height: 52.56px;
+  margin: auto;
+}
+
+.project-roles h3 {
+  margin: 2em;
+}
+
+.descText {
+  color: black;
+}
+
+.shade {
+  animation-name: shade;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shade {
+  from {
+    background-color: #5ca9fb;
+  }
+  to {
+    background-color: #5794d6;
+  }
+}
+
+.light {
+  animation-name: light;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes light {
+  from {
+    background-color: #5794d6;
+  }
+  to {
+    background-color: #5ca9fb;
+  }
+}
+
+@media (max-width: 674px) {
   .role-card {
     flex-direction: column;
   }
@@ -601,10 +692,9 @@ header .intro-text {
       box-shadow: 0px 0px 10px #6372ff;
       font-size: 18px;
       margin-left: 2em;
-      margin-right: 2em;
+      margin-right: 3.5em;
       padding: 1em;
       border-radius: 45px;
-      box-shadow: 0px 0px 10px #6372ff; 
       flex-basis: 70%;
     }
   }
@@ -624,7 +714,6 @@ header .intro-text {
       margin-right: 2em;
       padding: 1em;
       border-radius: 45px;
-      box-shadow: 0px 0px 10px #6372ff; 
       flex-basis: 70%;
     }
     to {
@@ -636,66 +725,7 @@ header .intro-text {
   
 }
 
-.role-title {
-  margin: 2em;
-  padding-right: 2em;
-  font-size: 20px;
-  color: #333;
-  font-weight: 600;
-  display: flex;
-  flex-direction: row;
-  width: 8em;
-  max-height: 100px;
-}
-
-.role-card .role-title button {
-  background-color: #5ca9fb;
-  border-color: #449cfb;
-  border-radius: 45px;
-  padding-left: 1em;
-  padding-right: 1em;
-  box-shadow: 0px 0px 10px #6372ff;
-  height: 52.56px;
-  margin: auto;
-}
-
-.project-roles h3 {
-  margin: 2em;
-}
-
-.shade {
-  animation-name: shade;
-  animation-duration: 0.25s;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
-}
-
-@keyframes shade {
-  from {
-    background-color: #5ca9fb;
-  }
-  to {
-    background-color: #5794d6;
-  }
-}
-
-.light {
-  animation-name: light;
-  animation-duration: 0.25s;
-  animation-timing-function: ease-in;
-  animation-fill-mode: backwards;
-}
-
-@keyframes light {
-  from {
-    background-color: #5794d6;
-  }
-  to {
-    background-color: #5ca9fb;
-  }
-}
-
-@media (min-width: 601px) {
+@media (min-width: 675px) {
   .default {
     opacity: 0;
     font-size: 18px;
@@ -717,7 +747,7 @@ header .intro-text {
 
 
   .fade-in {
-    animation: fade-in 0.25s ease-in 0s forwards;
+    animation: fade-in 0.25s ease-in-out 0s forwards;
   }
 
   @keyframes fade-in {
