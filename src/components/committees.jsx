@@ -1,13 +1,22 @@
 
 //export as own component once done
-function CommitteeImage({ title, desc, img }) {
+function CommitteeImage({ title, desc, img, skills}) {
     return (
-        <div className="comm-img">
-            <div>
-                <h4>{title}</h4>
-                <div>{desc}</div>
+        <div className="comm-card">
+            <div className="comm-team">
+                {title}
             </div>
-            <img src={img} alt={title} />
+            <div className="flex-comm">
+                <div className="comm-img">
+                    <div>
+                        <h4>What We Do</h4>
+                        <div className="desc">{desc}</div>
+                        <h4>Skills Gained</h4>
+                        <div>{skills}</div>
+                    </div>
+                    <img src={img} alt={title} />
+                </div>
+            </div>
         </div>
     );
 }
@@ -20,8 +29,8 @@ function CommitteeGallery(props) {
                 <div className="commItems">
                     {props.data
                         ? props.data.map((d, i) => (
-                            <div className='col-xs-12 col-sm-6'>
-                                <CommitteeImage title={d.title} desc={d.desc} img={d.img} />
+                            <div className='col-sm-12 col-md-6'>
+                                <CommitteeImage title={d.title} desc={d.desc} img={d.img} skills={d.skills}/>
                             </div>
                         ))
                         : 'Loading...'}
