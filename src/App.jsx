@@ -1,6 +1,7 @@
 import { Landing } from "./components/Landing";
 import { AboutPage } from "./components/AboutPage";
 import {AlumniPage} from "./components/AlumniPage"
+import {Team} from "./components/Team"
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import {
@@ -24,6 +25,9 @@ const App = () => {
         </Route>
         <Route exact path="/about">
           <AboutPage/>
+        </Route>
+        <Route exact path="/leadership">
+          <Team/>
         </Route>
         <Route exact path="/alumni">
           <AlumniPage/>
