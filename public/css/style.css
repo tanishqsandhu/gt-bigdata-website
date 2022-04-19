@@ -1138,24 +1138,6 @@ header .intro-text {
   color: #666;
 }
 
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
 /* Contact Section */
 
 .acknowledgement {
@@ -1320,6 +1302,85 @@ label {
   width: 25%;
   bottom: 0;
   left: 0;
+}
+
+/* Team Section */
+
+#team {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+#team h4 {
+  margin: 5px 0;
+  
+}
+
+#team .cardrow {
+   
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  
+  align-items: center; 
+  justify-content: space-evenly;
+  margin: auto;
+  
+}
+
+#team .card {
+  
+  
+  margin: 6em 2em 2em 2em;
+  width: 220px;
+  font-family: sans-serif;
+  
+  padding: 20px;
+  box-shadow: 0 0 22px #3336;
+  border-radius: 16px;
+  height: 16em;
+  position: relative;
+}
+
+#team .card img {
+  width: 100%;
+  border-radius: 100%;
+  height: 100%;
+  /*border-radius: 30px;*/
+  box-shadow: 0 0 22px #3336;
+  transform: translateY(-110px);
+}
+
+#team .card .caption {
+  text-align: center;
+  transform: translateY(-95px);
+}
+
+#team .social-links .linkedin:hover {
+  color: #449cfb;
+}
+
+#team .social-links .twitter:hover {
+  color: #5794d6;
+}
+
+#team .social-links .insta:hover {
+  color: #772362;
+}
+
+#team .social-links {
+  position: absolute;
+  top: 75px;
+  left: 18px;
+}
+
+#team .social-links a {
+  text-align: center;
+  color: #333;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 21px;
 }
 
 /* Landing */

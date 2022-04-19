@@ -215,6 +215,92 @@
     "instagram": "https://www.instagram.com/gtbigdata/?hl=en",
     "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact"
   },
+  "Team": [
+    {
+      "img": "img/team/TanishqSandhu.jfif",
+      "name": "Tanishq Sandhu",
+      "major": "CS",
+      "title": "Executive Vice President",
+      "linkedin": "https://www.linkedin.com/in/tanishqsandhu/",
+      "instagram": "https://www.instagram.com/tanishq.sandhu/",
+      "twitter": "https://twitter.com/TanishqSandhu",
+      "year": "Second"
+
+    },
+    {
+      "img": "img/team/VamsiDesu.jfif",
+      "name": "Vamsi Desu",
+      "linkedin": "https://www.linkedin.com/in/vamsidesu/",
+
+      "title": "President"
+
+    },
+    {
+      "img": "img/team/JillPatel.png",
+      "name": "Jill Patel",
+      "major": "CS",
+      "title": "SVP of Learning and Development",
+      "linkedin": "https://www.linkedin.com/in/jill-patel-/",
+      "instagram": "",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/KhelanModi.png",
+      "name": "Khelan Modi",
+      "major": "CS",
+      "title": "SVP of Projects",
+      "linkedin": "https://www.linkedin.com/in/khelan-modi/",
+      "instagram": "",
+      "twitter": "",
+      "year": "Third"
+    },
+    {
+      "img": "img/team/ShriyanshuKode.jfif",
+      "name": "Shriyanshu Kode",
+      "major": "CS",
+      "title": "SVP of Sponsorships",
+      "linkedin": "www.linkedin.com/in/shriyanshuk",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "First"
+    },
+    
+    {
+      "img": "img/team/AlexHobby.jpg",
+      "name": "Alex Hobby",
+      "major": "CS",
+      "title": "Project Lead - Traffic Congestion",
+      "linkedin": "https://www.linkedin.com/in/alexhobby/",
+      "instagram": "https://www.instagram.com/alexhobby98/?hl=en",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/EshaniChauk2.jpg",
+      "name": "Eshani Chauk",
+      "major": "CS",
+      "title": "Project Lead - Fake News Detection",
+      "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
+      "instagram": "",
+      "twitter": "",
+      "year": "Second"
+    },
+    
+    
+    {
+      "img": "img/team/RonitArora.jpg",
+      "name": "Ronit Arora",
+      "major": "CS",
+      "title": "Project Lead - Wildfire Detection",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    }
+    
+    
+  ],
   "Features": [
     {
       "icon": "fa fa-comments-o",
