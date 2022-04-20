@@ -15,14 +15,14 @@ function RoleCard(props) {
         })
     },[])
 
-    function setClass() {
-        if (hover.hover) {
-            return "shade";
-        } else if (hover.load) {
-            return "light";
-        }
-        return "";
-    }
+    // function setClass() {
+    //     if (hover.hover) {
+    //         return "shade";
+    //     } else if (hover.load) {
+    //         return "light";
+    //     }
+    //     return "";
+    // }
 
     function visibility() {
         if (hover.hover) {
@@ -51,7 +51,7 @@ function RoleCard(props) {
         <div>
             <div className="role-card">
                 <div className="role-title">
-                    <button className={setClass()} onClick={changeState}>
+                    <button className='btn btn-custom page-scroll' onClick={changeState}>
                         {props.data.title}
                     </button>
                 </div>

@@ -265,6 +265,7 @@ hr {
   box-shadow: none;
 }
 a:focus,
+button:focus,
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -618,12 +619,9 @@ header .intro-text {
 }
 
 .role-card .role-title button {
-  background-color: #5ca9fb;
-  border-color: #449cfb;
   border-radius: 45px;
   padding-left: 1em;
   padding-right: 1em;
-  box-shadow: 0px 0px 10px #6372ff;
   height: 52.56px;
   margin: auto;
 }
@@ -636,7 +634,7 @@ header .intro-text {
   color: black;
 }
 
-.shade {
+/* .shade {
   animation-name: shade;
   animation-duration: 0.25s;
   animation-timing-function: ease-in-out;
@@ -666,7 +664,7 @@ header .intro-text {
   to {
     background-color: #5ca9fb;
   }
-}
+} */
 
 @media (max-width: 674px) {
   .role-card {
@@ -689,7 +687,6 @@ header .intro-text {
     margin-right: 2em;
     padding: 1em;
     border-radius: 45px;
-    box-shadow: 0px 0px 10px #6372ff;
   }
 
 
@@ -707,7 +704,6 @@ header .intro-text {
       height: 100%;
       opacity: 1;
       background-color: rgba(99, 114, 255, 0.5);
-      box-shadow: 0px 0px 10px #6372ff;
       font-size: 18px;
       margin-left: 2em;
       margin-right: 2em;
@@ -726,7 +722,6 @@ header .intro-text {
       height: 100%;
       opacity: 1;
       background-color: rgba(99, 114, 255, 0.5);
-      box-shadow: 0px 0px 10px #6372ff;
       font-size: 18px;
       margin-left: 2em;
       margin-right: 2em;
@@ -750,7 +745,6 @@ header .intro-text {
     margin: auto;
     padding: 1em;
     border-radius: 45px;
-    box-shadow: 0px 0px 10px #6372ff;
     display: none;
   }
 
@@ -759,7 +753,6 @@ header .intro-text {
     margin: auto;
     padding: 1em;
     border-radius: 45px;
-    box-shadow: 0px 0px 10px #6372ff; 
     flex-basis: 70%; 
   }
 
@@ -776,7 +769,6 @@ header .intro-text {
     to {
       opacity: 1;
       background-color: rgba(99, 114, 255, 0.5);
-      box-shadow: 0px 0px 10px #6372ff;
     }
   }
   
@@ -788,7 +780,6 @@ header .intro-text {
     from {
       opacity: 1;
       background-color: rgba(99, 114, 255, 0.5);
-      box-shadow: 0px 0px 10px #6372ff;
     }
     to {
       opacity: 0;
