@@ -65,7 +65,7 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Sponsors": [
+  "Corporate Sponsors": [
     {
       "icon": "fa fa-wordpress",
       "name": "Lorem ipsum dolor",
@@ -96,6 +96,21 @@
       "name": "Consectetur adipiscing",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
+  ],
+  "Sponsors": [
+    "img/company_icons/google.png",
+    "img/company_icons/resizedhoneywell.png"
+  ],
+  "Sponsors2": [
+  ],
+  "Sponsors3": [
+    "img/company_icons/meta.png",
+    "img/logos/ea-logo.jpg",
+    "img/company_icons/msft.png",
+    "img/logos/hubspot-logo.jpg",
+    "img/logos/lyft-logo.jpg",
+    "img/logos/ncr-logo.jpg",
+    "img/logos/nvidia-logo.jpg"
   ],
   "Board": [
     {

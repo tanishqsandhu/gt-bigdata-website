@@ -362,58 +362,64 @@ header .intro-text {
   margin: 30px 0;
 }
 /* Sponsors Page */
-#sponsors {
-  padding: 100px 0;
+.sponsors {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
 }
-#sponsors h2 {
+
+.sponsors div {
+  text-align: center;
+  margin: 2em 0 2em 0;
+}
+
+.sponsors div img {
+  width: 25%;
+  min-width: 72px;
+}
+
+.sponsorBox {
+  background-color: whitesmoke;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 30px;
+
+}
+
+.btn-primary2 {
+  color: #fff;
+  background-color: #5ca9fb;
+  border-color: #6372ff;
+  border-width: 3px;
   position: relative;
-  margin-top: 4px;
-  margin-bottom: 15px;
-  margin-right: 250px;
-  padding-bottom: 15px;
+  left: 38%;
+  margin-bottom: 100px;
 }
-#sponsors h3 {
+
+.btn-primary3 {
+  color: #fff;
+  background-color: #5ca9fb;
+  border-color: #6372ff;
+  border-width: 3px;
   position: relative;
-  margin-top: 4px;
-  margin-bottom: 15px;
-  margin-right: 250px;
-  padding-bottom: 15px;
+  left: 40%;
+  margin-bottom: 100px;
 }
-#sponsors h3::after {
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  height: 4px;
-  width: 10%;
-  bottom: 0;
-  left: 0;
+
+.diamond {
+  padding-top: 100px;
+  position: relative;
+  background: linear-gradient(to top, #5ca9fb 0%, #6372ff 100%);
 }
-#sponsors p {
-  line-height: 20px;
-  margin: 15px 0;
+
+.diamond > div.container {
+  padding-bottom: 100px;
 }
-#sponsors .sponsors-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  list-style: none;
-  padding: 0;
-}
-#sponsors .sponsors-text li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
-}
-#sponsors img {
-  width: 250px;
-  height: 250px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  background: #fff;
-  border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+
+.diamond > div.container2 {
+  background-color: none;
+  padding-bottom: 100px;
 }
 
 /* Services Section */
@@ -754,6 +760,47 @@ label {
   padding-left: 2em;
   padding-right: 2em;
   font-style: italic;
+}
+
+.custom-shape-divider-top-1648670392 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1648670392 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 164px;
+}
+
+.custom-shape-divider-top-1648670392 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1648670826 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648670826 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 164px;
+}
+
+.custom-shape-divider-bottom-1648670826 .shape-fill {
+  fill: #ffffff;
 }
 
 
