@@ -18,7 +18,7 @@ export const PastSponsors = (props) => {
                     <div className="sponsors">
                         {JsonData.Sponsors3 ? JsonData.Sponsors3.map((d, i) => (
                             <div className="">
-                                <img src={d} alt="img" />
+                                <img src={d} alt="img"/>
                             </div>
                         )) : "loading"}
                     </div>

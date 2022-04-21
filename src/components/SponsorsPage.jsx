@@ -14,7 +14,7 @@ export const SponsorsPage = () => {
             
             <div className="container-fluid">
                 <div className="row">      
-                    <h1 style={{textAlign: 'center', margin: '3em 1em 1em 1em', color: '#6372ff'}}>Our Sponsors</h1>
+                    <h1 style={{textAlign: 'center', margin: '4em 1em 1em 1em', color: '#6372ff'}}>Our Sponsors</h1>
                     <h3 style = {{textAlign: 'center', margin: '2em 1em 2em 1em'}}>Thanks to our sponsors for making what we do possible!</h3>               
                 </div>
                 <a href="#" class="btn btn-primary2">View Information</a>

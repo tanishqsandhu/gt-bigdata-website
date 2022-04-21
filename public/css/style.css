@@ -363,7 +363,7 @@ header .intro-text {
 }
 /* Sponsors Page */
 .sponsors {
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   margin-bottom: 100px;
@@ -376,15 +376,15 @@ header .intro-text {
 
 .sponsors div img {
   width: 25%;
-  min-width: 72px;
+  min-width: 100px;
 }
 
 .sponsorBox {
   background-color: whitesmoke;
   max-width: 1000px;
+  max-height: 500px;
   margin: auto;
   border-radius: 30px;
-
 }
 
 .btn-primary2 {
