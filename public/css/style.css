@@ -248,6 +248,7 @@ hr {
   transition: all 0.5s linear;
   border: 0;
 }
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
@@ -1297,18 +1298,19 @@ label {
 
 /* Team Section */
 
-#team {
+#team, #alumni {
   padding: 100px 0;
   display: flex;
   flex-direction: column;
   
 }
-#team h4 {
+#team h4, #alumni h4 {
   margin: 5px 0;
   
 }
 
-#team .cardrow {
+#team .cardrow,
+#alumni .cardrow {
    
   flex-direction: row;
   flex-wrap: wrap;
@@ -1320,7 +1322,8 @@ label {
   
 }
 
-#team .card {
+#team .card,
+#alumni .card {
   
   
   margin: 6em 2em 2em 2em;
@@ -1334,7 +1337,8 @@ label {
   position: relative;
 }
 
-#team .card img {
+#team .card img,
+#alumni .card img {
   width: 100%;
   border-radius: 100%;
   height: 100%;
@@ -1343,30 +1347,36 @@ label {
   transform: translateY(-110px);
 }
 
-#team .card .caption {
+#team .card .caption,
+#alumni .card .caption {
   text-align: center;
   transform: translateY(-95px);
 }
 
-#team .social-links .linkedin:hover {
+#team .social-links .linkedin:hover,
+#alumni .social-links .linkedin:hover {
   color: #449cfb;
 }
 
-#team .social-links .twitter:hover {
+#team .social-links .twitter:hover,
+#alumni .social-links .twitter:hover {
   color: #5794d6;
 }
 
-#team .social-links .insta:hover {
+#team .social-links .insta:hover,
+#alumni .social-links .insta:hover {
   color: #772362;
 }
 
-#team .social-links {
+#team .social-links,
+#alumni .social-links {
   position: absolute;
   top: 75px;
   left: 18px;
 }
 
-#team .social-links a {
+#team .social-links a,
+#alumni .social-links a {
   text-align: center;
   color: #333;
   margin-right: 15px;
