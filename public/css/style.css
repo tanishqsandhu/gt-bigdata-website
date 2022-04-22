@@ -499,6 +499,12 @@ header .intro-text {
   padding-bottom: 100px;
 }
 
+.whyBDBI {
+  padding-top: 100px;
+  position: relative;
+  background: linear-gradient(to top, #5ca9fb 0%, #6372ff 100%);
+}
+
 .whyBDBI > div.container {
   padding-bottom: 200px;
 }
