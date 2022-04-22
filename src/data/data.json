@@ -120,28 +120,21 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
-  "Speakers": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "title": "President of Company",
-      "name": "John Doe",
-      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
-      "twitter": "https://twitter.com/gtbigdataclub"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "title": "President of Company",
-      "name": "Johnathan Doe",
-      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
-      "twitter": "https://twitter.com/gtbigdataclub"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "title": "President of Company",
-      "name": "John Doe",
-      "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
-      "twitter": "https://twitter.com/gtbigdataclub"
-    }
+  "Sponsors": [
+    "img/company_icons/google.png",
+    "img/company_icons/resizedhoneywell.png"
+  ],
+  "Sponsors2": [
+  ],
+  "Sponsors3": [
+    "img/company_icons/meta.png",
+    "img/company_icons/msft.png",
+    "img/company_icons/airbnb.png",
+    "img/company_icons/ea.png",
+    "img/company_icons/ncr.png",
+    "img/company_icons/hubspot.png",
+    "img/company_icons/lyft.png",
+    "img/company_icons/nvidia.png"
   ],
   "Companies": [
     "img/company_icons/apple.png",

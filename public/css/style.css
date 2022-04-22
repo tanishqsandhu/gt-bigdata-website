@@ -438,11 +438,65 @@ header .intro-text {
   line-height: 24px;
   margin-top: 1em;
 }
+/* Sponsors Page */
+.sponsors {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
 
-.whyBDBI {
+.sponsors div {
+  text-align: center;
+  margin: 2em 0 2em 0;
+}
+
+.sponsors div img {
+  width: 25%;
+  min-width: 100px;
+}
+
+.sponsorBox {
+  background-color: whitesmoke;
+  max-width: 1000px;
+  max-height: 500px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.btn-primary2 {
+  color: #fff;
+  background-color: #5ca9fb;
+  border-color: #6372ff;
+  border-width: 3px;
+  position: relative;
+  left: 38%;
+  margin-bottom: 100px;
+}
+
+.btn-primary3 {
+  color: #fff;
+  background-color: #5ca9fb;
+  border-color: #6372ff;
+  border-width: 3px;
+  position: relative;
+  left: 40%;
+  margin-bottom: 100px;
+}
+
+.diamond {
   padding-top: 100px;
   position: relative;
   background: linear-gradient(to top, #5ca9fb 0%, #6372ff 100%);
+}
+
+.diamond > div.container {
+  padding-bottom: 100px;
+}
+
+.diamond > div.container2 {
+  background-color: none;
+  padding-bottom: 100px;
 }
 
 .whyBDBI > div.container {
@@ -1412,3 +1466,46 @@ label {
   padding-right: 2em;
   font-style: italic;
 }
+
+.custom-shape-divider-top-1648670392 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1648670392 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 164px;
+}
+
+.custom-shape-divider-top-1648670392 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1648670826 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648670826 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 164px;
+}
+
+.custom-shape-divider-bottom-1648670826 .shape-fill {
+  fill: #ffffff;
+}
+
+
