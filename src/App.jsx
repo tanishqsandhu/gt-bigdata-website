@@ -1,6 +1,7 @@
 import { Landing } from "./components/Landing";
 import { AboutPage } from "./components/AboutPage";
 import {AlumniPage} from "./components/AlumniPage"
+import { SponsorsPage } from "./components/SponsorsPage";
 import {Team} from "./components/Team"
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -31,6 +32,9 @@ const App = () => {
         </Route>
         <Route exact path="/alumni">
           <AlumniPage/>
+        </Route>
+        <Route exact path = "/sponsors">
+          <SponsorsPage/>  
         </Route>
 
       </Switch>
