@@ -1,13 +1,17 @@
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
-import JsonData from "../data/data.json";
 import { useState } from "react";
+import { send } from "emailjs-com";
 
 const initialState = {
     name: '',
     email: '',
     message: '',
 }
+
+const YOUR_TEMPLATE_ID = 'template_8iqhh08';
+const YOUR_SERVICE_ID = 'service_cr9xsup';
+const YOUR_PUBLIC_KEY = 'NN3EioLeDL1VUgq8s';
 
 const Contact = (props) => {
     const [{ name, email, message }, setState] = useState(initialState)
@@ -21,19 +25,18 @@ const Contact = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(name, email, message)
-    //   emailjs
-    //     .sendForm(
-    //       'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-    //     )
-    //     .then(
-    //       (result) => {
-    //         console.log(result.text)
-    //         clearState()
-    //       },
-    //       (error) => {
-    //         console.log(error.text)
-    //       }
-    //     )
+        send(
+          YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, {name, email, message}, YOUR_PUBLIC_KEY
+        )
+        .then(
+          (result) => {
+            console.log(result.text)
+            clearState()
+          },
+          (error) => {
+            console.log(error.text)
+          }
+        )
     }
     return (
         <div id='contact-form'>
@@ -95,6 +98,7 @@ const Contact = (props) => {
                                     Send Message
                              </button>
                         </form>
+
                     </div>
                 </div>
             </div>
