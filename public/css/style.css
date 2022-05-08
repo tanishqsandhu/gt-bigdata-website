@@ -212,7 +212,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .section-title h2 {
   position: relative;
@@ -1197,6 +1197,23 @@ header .intro-text {
   padding-bottom: 1em;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 25px;
+  animation: appear 0.5s ease-in-out 0s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+  
 }
  /* #contact .section-title {
   margin-bottom: 40px;
