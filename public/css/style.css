@@ -212,7 +212,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .section-title h2 {
   position: relative;
@@ -220,16 +220,7 @@ hr {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-.section-title h2::after {
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-}
+
 .section-title p {
   font-size: 18px;
 }
@@ -361,7 +352,7 @@ header .intro-text {
 }
 /* About Section */
 
-#about {
+#about, #contact-form {
   padding: 120px 0 100px 0;
   position: relative;
 }
@@ -375,7 +366,7 @@ header .intro-text {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#about h2::after {
+#about h2::after, #contact-form h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -384,6 +375,7 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -1206,7 +1198,24 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
-/* #contact .section-title {
+
+.thank-you {
+  text-align: center;
+  font-size: 25px;
+  animation: appear 0.5s ease-in-out 0s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+  
+}
+ /* #contact .section-title {
   margin-bottom: 40px;
 }
 #contact .section-title p {
@@ -1359,14 +1368,25 @@ label {
 /* Team Section */
 
 #team, #alumni {
-  padding: 100px 0;
+  padding: 120px 0 100px 0;
+  position: relative;
   display: flex;
   flex-direction: column;
-  
 }
+
 #team h4, #alumni h4 {
   margin: 5px 0;
-  
+}
+
+#team h2::after, #alumni h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 10%;
+  bottom: 0;
+  left: 45%;
+
 }
 
 #team .cardrow,
