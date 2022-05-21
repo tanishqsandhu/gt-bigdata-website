@@ -18,7 +18,7 @@ export const Team = (props) => {
             {JsonData.Team
             ? JsonData.Team.map((d, i) => (
               <div className='card col-xs-4'>
-                <img src={d.img} />
+                <img alt="" src={d.img} />
                 <div className='caption'>
                     <h4>{d.name}</h4>
                     <p>{d.title}</p>
