@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
 import { DiamondSponsors } from "./diamond";
@@ -17,8 +17,8 @@ export const SponsorsPage = () => {
                     <h1 style={{textAlign: 'center', margin: '4em 1em 1em 1em', color: '#6372ff'}}>Our Sponsors</h1>
                     <h3 style = {{textAlign: 'center', margin: '2em 1em 2em 1em'}}>Thanks to our sponsors for making what we do possible!</h3>               
                 </div>
-                <a href="#" class="btn btn-primary2">View Information</a>
-                <a href="#" class="btn btn-primary3">Become a Sponsor</a>
+                <a href="" class="btn btn-primary2">View Information</a>
+                <a href="" class="btn btn-primary3">Become a Sponsor</a>
             </div>
             <DiamondSponsors data={JsonData.Sponsors.DiamondSponsors}/>
             <PlatinumSponsors data={JsonData.Sponsors.PlatinumSponsors}/>
