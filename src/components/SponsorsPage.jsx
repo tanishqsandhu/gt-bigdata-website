@@ -12,13 +12,15 @@ export const SponsorsPage = () => {
         <div>
             <Navigation />
             
-            <div className="container-fluid">
-                <div className="row">      
+            <div className="container container-table">
+                <div className="row vertical-center-row">      
                     <h1 style={{textAlign: 'center', margin: '4em 1em 1em 1em', color: '#6372ff'}}>Our Sponsors</h1>
-                    <h3 style = {{textAlign: 'center', margin: '2em 1em 2em 1em'}}>Thanks to our sponsors for making what we do possible!</h3>               
+                    <h3 style = {{textAlign: 'center', margin: '2em 1em 2em 1em'}}>Thanks to our sponsors for making what we do possible!</h3>
+                    <div className="sponsorButtons">
+                        <a href="" class="btn btn-sponsors">View Information</a>
+                        <a href="" class="btn btn-sponsors">Become a Sponsor</a>
+                    </div>
                 </div>
-                <a href="" class="btn btn-primary2">View Information</a>
-                <a href="" class="btn btn-primary3">Become a Sponsor</a>
             </div>
             <DiamondSponsors data={JsonData.Sponsors.DiamondSponsors}/>
             <PlatinumSponsors data={JsonData.Sponsors.PlatinumSponsors}/>
