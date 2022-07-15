@@ -451,14 +451,19 @@ header .intro-text {
 .sponsorBox {
   background-color: whitesmoke;
   width: auto;
-  height: auto;
-  margin: auto;
-  border-radius: 30px;
+  margin-bottom: 10%;
+  border-radius: 25px;
   text-align: center;
+  word-spacing: 1px;
+  display: flexbox;
+  resize: vertical;
+  height: fit-content;
 }
 
 .sponsorButtons {
   text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .btn-sponsors {

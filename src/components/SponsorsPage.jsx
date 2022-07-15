@@ -14,8 +14,8 @@ export const SponsorsPage = () => {
             
             <div className="container container-table">
                 <div className="row vertical-center-row">      
-                    <h1 style={{textAlign: 'center', margin: '4em 1em 1em 1em', color: '#6372ff'}}>Our Sponsors</h1>
-                    <h3 style = {{textAlign: 'center', margin: '2em 1em 2em 1em'}}>Thanks to our sponsors for making what we do possible!</h3>
+                    <h2 style={{textAlign: 'center', margin: '3em 1em 1em 1em'}}>Our Sponsors</h2>
+                    <div className="keywords" style={{textAlign: 'center', margin: '2em 1em 2em 1em', color: "#6372ff", fontSize: 25}}>Thanks to our sponsors for making what we do possible!</div>
                     <div className="sponsorButtons">
                         <a href="" class="btn btn-sponsors">View Information</a>
                         <a href="" class="btn btn-sponsors">Become a Sponsor</a>
