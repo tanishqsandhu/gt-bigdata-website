@@ -378,5 +378,44 @@
       "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact",
       "twitter": "https://twitter.com/gtbigdataclub"
     }
-  ]
+  ],
+    "Projects": {
+      "2021": [
+        {
+          "img": "",
+          "name": "Project 1",
+          "description": "Small Description of Project"
+        },
+        {
+          "img": "",
+          "name": "Project 2",
+          "description": "Small Description of Project"
+        }
+      ],
+      "2020": [
+        {
+          "img": "",
+          "name": "Project 1",
+          "description": "Small Description of Project"
+        },
+        {
+          "img": "",
+          "name": "Project 2",
+          "description": "Small Description of Project"
+        }
+      ],
+      "2019": [
+        {
+          "img": "",
+          "name": "Project 1",
+          "description": "Small Description of Project"
+        },
+        
+        {
+          "img": "",
+          "name": "Project 2",
+          "description": "Small Description of Project"
+        }
+      ]
+    }
 }
