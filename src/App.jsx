@@ -4,6 +4,7 @@ import {AlumniPage} from "./components/AlumniPage"
 import { SponsorsPage } from "./components/SponsorsPage";
 import { ContactPage } from "./components/contactPage";
 import {Team} from "./components/Team"
+import { ProjectPage } from "./components/ProjectPage";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import {
@@ -26,6 +27,9 @@ const App = () => {
         </Route>
         <Route exact path="/about">
           <AboutPage/>
+        </Route>
+        <Route exact path="/projects">
+          <ProjectPage/>
         </Route>
         <Route exact path="/leadership">
           <Team/>
