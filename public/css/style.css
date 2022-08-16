@@ -1356,7 +1356,7 @@ label {
   margin: 20px 0;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1); 
   margin-bottom: 10px;
   display: block;
 }
@@ -1503,6 +1503,10 @@ label {
   color: #772362;
 }
 
+#project .social-links .github:hover {
+  color: rgba(66, 63, 63, 0.605);
+}
+
 #team .social-links,
 #alumni .social-links {
   position: absolute;
@@ -1511,7 +1515,8 @@ label {
 }
 
 #team .social-links a,
-#alumni .social-links a {
+#alumni .social-links a,
+#project .social-links a {
   text-align: center;
   color: #333;
   margin-right: 15px;
