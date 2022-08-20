@@ -43,7 +43,7 @@ export const AlumniPage = (props) => {
             Check out our alumni from past years!
           </p>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="btn-group">
           {
             years.map(num => (
@@ -72,8 +72,8 @@ export const AlumniPage = (props) => {
               ))
           : 'hey'}
         </div>
-      </div>
-        
+      </div> */}
+        <h1 style={{'textAlign':'center','marginBottom':'2.76em'}}>COMING SOON</h1>
       
       
     </div>

@@ -26,7 +26,8 @@ export const ProjectPage = () => {
                 <h2>Projects</h2>
                 <p>Check out our Projects for the current and past years!</p>
             </div>
-            <div className="container">
+            <h1 style={{'textAlign':'center', 'marginBottom':'2.76em'}}>COMING SOON</h1>
+            {/* <div className="container">
                 <div className="btn-group">
                 {
                     years.map(num => (
@@ -52,7 +53,7 @@ export const ProjectPage = () => {
                     ))
                     : 'hey'}
                 </div>
-            </div>
+            </div> */}
         </div>
             <Footer data={JsonData.Contact}/>
         </div>

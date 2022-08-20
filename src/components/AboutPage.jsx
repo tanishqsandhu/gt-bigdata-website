@@ -22,7 +22,7 @@ export const AboutPage = () => {
             <WhyBDBI data={JsonData.About.whyBDBI}/>
             <ProjRoles data={JsonData.About.projRoles}/>
             {/* <Committees data={JsonData}></Committees> */}
-            <div className="gradient">
+            <div className="gradient" style={{'marginBottom':'3em'}}>
                 <Events data={JsonData.Events}></Events>
                 <div className="container">
                     <div className="row">

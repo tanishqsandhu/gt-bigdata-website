@@ -38,7 +38,8 @@ export const Landing = () => {
                     <TestimonialCard>"Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vitae deleniti dolores ratione consequuntur, voluptates tempore ad suscipit sint amet, dolorem iste distinctio culpa veniam unde nobis rerum architecto soluta."</TestimonialCard>
                     <TestimonialCard>"Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vitae deleniti dolores ratione consequuntur, voluptates tempore ad suscipit sint amet, dolorem iste distinctio culpa veniam unde nobis rerum architecto soluta."</TestimonialCard>
                 </div> */}
-                <Testimonials data= {JsonData.Board}></Testimonials>
+                {/* <Testimonials data= {JsonData.Board}></Testimonials> */}
+                <h1 style={{'textAlign':'center'}}>COMING SOON</h1>
             </div>
             <Footer data={JsonData.Contact} />
         </div>

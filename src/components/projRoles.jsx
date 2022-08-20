@@ -15,14 +15,14 @@ function RoleCard(props) {
         })
     },[])
 
-    // function setClass() {
-    //     if (hover.hover) {
-    //         return "shade";
-    //     } else if (hover.load) {
-    //         return "light";
-    //     }
-    //     return "";
-    // }
+    function setClass() {
+        if (hover.hover) {
+            return "shade";
+        } else if (hover.load) {
+            return "light";
+        }
+        return "";
+    }
 
     function visibility() {
         if (hover.hover) {
@@ -30,7 +30,7 @@ function RoleCard(props) {
         } else if (hover.load) {
             return "descText fade-out"
         }
-        return "default";
+        return "descText";
     }
 
     function changeState() {
@@ -51,11 +51,11 @@ function RoleCard(props) {
         <div>
             <div className="role-card">
                 <div className="role-title">
-                    <button className='btn btn-custom page-scroll' onClick={changeState}>
+                    <div className='btn-custom page-scroll'>
                         {props.data.title}
-                    </button>
+                    </div>
                 </div>
-                <div className={visibility()}>
+                <div className={visibility()} style={{'backgroundColor':'rgba(99, 114, 255, 0.5)'}}>
                     {props.data.desc}
                 </div>
             </div>
@@ -69,19 +69,18 @@ export const ProjRoles = (props) => {
 
     return (
         <div className=" project-roles container">
-            <div className="row">
-                <div className="project-img">
+            <div className="row" style={{'marginBottom':'5em'}}>
+                {/* <div className="project-img">
                     <img src="../img/project_team.png" alt="project" />
-                </div>
+                </div> */}
                 <h1 style={{textAlign: 'center',color: '#6372ff', margin: '2em 1em 2em 1em'}}>Project roles</h1>
                 <h3 >Learn more about each of the 3 roles every project has! 
                     Each role has workshops that help
-                    students develop production-level code. <span style={{'color':'#6372ff'}}> Click the buttons to learn more!</span>
+                    students develop production-level code. <span style={{'color':'#6372ff'}}></span>
                 </h3>
                 <RoleCard data={props.data.analysisRole}></RoleCard>
                 <RoleCard data={props.data.platformRole}></RoleCard>
                 <RoleCard data={props.data.datavizRole}></RoleCard>
-
             </div>
         </div>
     );
