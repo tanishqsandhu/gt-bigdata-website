@@ -488,20 +488,36 @@ header .intro-text {
 
 .sponsorBox {
   background-color: whitesmoke;
-  max-width: 1000px;
-  max-height: 500px;
-  margin: auto;
-  border-radius: 30px;
+  width: auto;
+  margin-bottom: 10%;
+  border-radius: 25px;
+  text-align: center;
+  word-spacing: 1px;
+  display: flexbox;
+  resize: vertical;
+  height: fit-content;
 }
 
-.btn-primary2 {
+.sponsorButtons {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.btn-sponsors {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  border-color: #6372ff;
-  border-width: 3px;
-  position: relative;
-  left: 38%;
-  margin-bottom: 100px;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.3s linear;
+  border: 0;
 }
 
 .btn-primary3 {
