@@ -21,7 +21,7 @@ export const AboutPage = () => {
             <About data={JsonData.About}/>
             <WhyBDBI data={JsonData.About.whyBDBI}/>
             <ProjRoles data={JsonData.About.projRoles}/>
-            <Committees data={JsonData}></Committees>
+            {/* <Committees data={JsonData}></Committees> */}
             <div className="gradient">
                 <Events data={JsonData.Events}></Events>
                 <div className="container">

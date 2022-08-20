@@ -4,21 +4,21 @@ export const Footer = (props) => {
       <div id='contact'>
         <div className='container'>
                 <ul className="social row">
-                  <li className="col-xs-4 col-md-2">
+                  {/* <li className="col-xs-4 col-md-2">
                     <a href={props.data ? props.data.facebook : '/'} target='_blank' rel='noreferrer' style={{margin: "0 0 1em 0"}}>
                       <i className='fa fa-facebook'></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="col-xs-4 col-md-2">
                     <a href={props.data ? props.data.twitter : '/'} target='_blank' rel='noreferrer'  style={{margin: "0 0 1em 0"}}>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
-                  <li className="col-xs-4 col-md-2">
+                  {/* <li className="col-xs-4 col-md-2">
                     <a href={props.data ? props.data.instagram : '/'} target='_blank' rel='noreferrer'  style={{margin: "0 0 1em 0"}}>
                       <i className='fa fa-instagram'></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="col-xs-4 col-md-2">
                     <a href={props.data ? props.data.linkedin : '/'} target='_blank' rel='noreferrer'  style={{margin: "0 0 1em 0"}}>
                       <i className='fa fa-linkedin'></i>

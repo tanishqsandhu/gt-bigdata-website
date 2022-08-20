@@ -1262,6 +1262,7 @@ header .intro-text {
 
 #contact {
   padding-top: 1em;
+  margin-top: 4em;
   padding-bottom: 1em;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
@@ -1390,7 +1391,12 @@ label {
   margin-top: 50px; */
   padding-top: 1em;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
+
 #contact .social ul li {
   display: inline-block;
   margin: 0 20px;
@@ -1405,6 +1411,7 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
+
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
