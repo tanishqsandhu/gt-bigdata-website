@@ -3,11 +3,11 @@ import { Navigation } from "./navigation";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
 
-let years = ["2021", "2020", "2019"];
+let years = ["2021-2022", "2020-2021", "2019-2020"];
 
 
 export const ProjectPage = () => {
-    const [year, setYear] = useState("2021");
+    const [year, setYear] = useState("2021-2022");
     const YearButton = (props) => {
         return (
           <button className='btn btn-custom page-scroll' onClick={e => setY(e)}>
@@ -44,6 +44,9 @@ export const ProjectPage = () => {
                         <div className='caption'>
                             <h4>{d.name}</h4>
                             <p>{d.description}</p>
+                            <div className="social-links">
+                                {d.github ? <a href={d.github} className="github"><i class="fa fa-github"></i></a> : ""}
+                            </div>
                         </div>
                     </div>
                     ))

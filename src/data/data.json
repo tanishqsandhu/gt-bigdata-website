@@ -380,41 +380,47 @@
     }
   ],
     "Projects": {
-      "2021": [
+      "2021-2022": [
         {
           "img": "",
           "name": "Project 1",
-          "description": "Small Description of Project"
+          "description": "include social impact and what the project does",
+          "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         },
         {
           "img": "",
           "name": "Project 2",
-          "description": "Small Description of Project"
+          "description": "include social impact and what the project does",
+          "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         }
       ],
-      "2020": [
+      "2020-2021": [
         {
           "img": "",
           "name": "Project 1",
-          "description": "Small Description of Project"
+          "description": "include social impact and what the project does",
+          "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         },
         {
           "img": "",
           "name": "Project 2",
-          "description": "Small Description of Project"
+          "description": "include social impact and what the project does",
+          "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         }
       ],
-      "2019": [
+      "2019-2020": [
         {
           "img": "",
           "name": "Project 1",
-          "description": "Small Description of Project"
+          "description": "include social impact and what the project does",
+          "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         },
         
         {
           "img": "",
           "name": "Project 2",
-          "description": "Small Description of Project"
+          "description": "include social impact and what the project does",
+          "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         }
       ]
     }
