@@ -7,13 +7,12 @@ export const Testimonials = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   <div className='testimonial'>
-                    {/* <div className='testimonial-image'>
-                      {' '}
-                      <img src={d.img} alt='' />{' '}
-                    </div> */}
+                    <p>{d.text}</p>
                     <div className='testimonial-content'>
-                      <p>{d.text}</p>
                       <div className='testimonial-meta'> - {d.name} </div>
+                      {/* <div className='testimonial-image'>
+                        <img src={d.img} alt='' />
+                      </div> */}
                     </div>
                   </div>
                 </div>

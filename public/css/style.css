@@ -1222,7 +1222,7 @@ header .intro-text {
 }
 
 .testimonial-image {
-  float: left;
+  float: none;
   margin-right: 15px;
 }
 
@@ -1232,12 +1232,17 @@ header .intro-text {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  padding: 2px;
 }
 .testimonial-content {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
-.testimonial-content p {
+.testimonial p {
   margin-bottom: 0;
   font-size: 18px;
   font-style: italic;
