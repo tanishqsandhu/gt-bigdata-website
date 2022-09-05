@@ -470,10 +470,16 @@ header .intro-text {
 }
 /* Sponsors Page */
 .sponsors {
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-basis: 33.333333%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-bottom: 100px;
+}
+
+.sponsors>* {
+  flex: 0 0 200px;
 }
 
 .sponsors div {
@@ -512,7 +518,7 @@ header .intro-text {
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 5px;
   font-size: 15px;
   font-weight: 500;
   border-radius: 25px;
