@@ -496,6 +496,11 @@ header .intro-text {
   margin-bottom: 100px;
 }
 
+.keywords-sponsors {
+  font-size: 36px;
+  font-style: italic;
+}
+
 .sponsors>* {
   flex: 0 0 200px;
 }
