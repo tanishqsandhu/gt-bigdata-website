@@ -5,6 +5,7 @@ import { SponsorsPage } from "./components/SponsorsPage";
 import { ContactPage } from "./components/contactPage";
 import {Team} from "./components/Team"
 import { ProjectPage } from "./components/ProjectPage";
+import { CarouselTest } from "./components/carousel/CarouselTest";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import {
@@ -23,7 +24,7 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Landing/>
+          <Landing />
         </Route>
         <Route exact path="/about">
           <AboutPage/>
