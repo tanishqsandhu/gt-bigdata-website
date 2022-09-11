@@ -470,7 +470,7 @@ header .intro-text {
 /* Sponsors Page */
 
 #sponsors {
-  padding: 120px 0 50px 0;
+  padding: 120px 0 0px 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -519,6 +519,8 @@ header .intro-text {
   width: auto;
   margin-bottom: 10%;
   border-radius: 30px;
+  margin-left: 2em;
+  margin-right: 2em;
   text-align: center;
   word-spacing: 1px;
   display: flexbox;

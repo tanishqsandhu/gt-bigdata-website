@@ -18,7 +18,7 @@ export const SponsorsPage = () => {
                     <p><br></br>Click the button below to learn how to become a sponsor!</p>
                     <div className="sponsorButtons">
                         {/* <a href="" class="btn btn-sponsors btn-custom">View Information</a> */}
-                        <a href={sponsorPDF} class="btn btn-sponsors btn-custom">View Packages</a>
+                        <a href={sponsorPDF} target={'_blank'} class="btn btn-sponsors btn-custom">View Packages</a>
                     </div>
                 </div>
             <Navigation />
