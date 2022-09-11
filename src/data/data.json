@@ -191,7 +191,7 @@
       "img": "img/team/TanishqSandhu.jfif",
       "name": "Tanishq Sandhu",
       "major": "CS",
-      "title": "Executive Vice President",
+      "title": "President",
       "linkedin": "https://www.linkedin.com/in/tanishqsandhu/",
       "instagram": "https://www.instagram.com/tanishq.sandhu/",
       "twitter": "https://twitter.com/TanishqSandhu",
@@ -199,11 +199,10 @@
 
     },
     {
-      "img": "img/team/VamsiDesu.jfif",
-      "name": "Vamsi Desu",
+      "img": "img/team/RonitArora.jpg",
+      "name": "Ronit Arora",
       "linkedin": "https://www.linkedin.com/in/vamsidesu/",
-
-      "title": "President"
+      "title": "Vice President"
 
     },
     {
@@ -217,20 +216,20 @@
       "year": "Second"
     },
     {
-      "img": "img/team/KhelanModi.png",
-      "name": "Khelan Modi",
+      "img": "img/team/ScottWatanuki.jpg",
+      "name": "Scott Watanuki",
       "major": "CS",
-      "title": "SVP of Projects",
+      "title": "SVP of Technology",
       "linkedin": "https://www.linkedin.com/in/khelan-modi/",
       "instagram": "",
       "twitter": "",
       "year": "Third"
     },
     {
-      "img": "img/team/ShriyanshuKode.jfif",
-      "name": "Shriyanshu Kode",
+      "img": "img/team/EshaniChauk.jpeg",
+      "name": "Eshani Chauk",
       "major": "CS",
-      "title": "SVP of Sponsorships",
+      "title": "SVP of Projects",
       "linkedin": "www.linkedin.com/in/shriyanshuk",
       "instagram": "https://www.instagram.com/ronit.r.arora/",
       "twitter": "",
@@ -238,30 +237,120 @@
     },
     
     {
-      "img": "img/team/AlexHobby.jpg",
-      "name": "Alex Hobby",
+      "img": "img/team/AbhinavSattiraju.png",
+      "name": "Abhinav Sattiraju",
       "major": "CS",
-      "title": "Project Lead - Traffic Congestion",
+      "title": "SVP of Web Development",
       "linkedin": "https://www.linkedin.com/in/alexhobby/",
       "instagram": "https://www.instagram.com/alexhobby98/?hl=en",
       "twitter": "",
       "year": "Second"
     },
     {
-      "img": "img/team/EshaniChauk2.jpg",
-      "name": "Eshani Chauk",
+      "img": "img/team/HarshikaGelivi.jpeg",
+      "name": "Harshika Gelivi",
       "major": "CS",
-      "title": "Project Lead - Fake News Detection",
+      "title": "SVP of Marketing",
       "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
       "instagram": "",
       "twitter": "",
       "year": "Second"
     },
     {
-      "img": "img/team/RonitArora.jpg",
-      "name": "Ronit Arora",
+      "img": "img/team/DakshSehgal.jpg",
+      "name": "Daksh Sehgal",
       "major": "CS",
-      "title": "Project Lead - Wildfire Detection",
+      "title": "SVP of Sponsorship",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/EthanMendes.jpg",
+      "name": "Ethan Mendes",
+      "major": "CS",
+      "title": "Platform Lead",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/UdayGoyat.jpg",
+      "name": "Uday Goyat",
+      "major": "CS",
+      "title": "Data Vis Lead",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/AkashVemulapalli.png",
+      "name": "Akash Vemulapalli",
+      "major": "CS",
+      "title": "Analysis Lead",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/DakshSehgal.jpg",
+      "name": "Daniel Duan",
+      "major": "CS",
+      "title": "Web Development Chair",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/DakshSehgal.jpg",
+      "name": "Aayush Mathur",
+      "major": "CS",
+      "title": "Sponsorship Chair",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/ShriyanshuKode.jpeg",
+      "name": "Shiryanshu Kode",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/SacchitMittal.jpg",
+      "name": "Sacchit Mittal",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/ChinarDankhara.png",
+      "name": "Chinar Dankhara",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
+      "instagram": "https://www.instagram.com/ronit.r.arora/",
+      "twitter": "",
+      "year": "Second"
+    },
+    {
+      "img": "img/team/NawidTahmid.jpg",
+      "name": "Nawid Tahmid",
+      "major": "CS",
+      "title": "Project Lead",
       "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
       "instagram": "https://www.instagram.com/ronit.r.arora/",
       "twitter": "",
