@@ -1512,7 +1512,7 @@ label {
 #alumni .card,
 #project .card {
   
-  margin: 6em 2em 2em 2em;
+  margin: 6em 2em 6em 2em;
   width: 220px;
   font-family: sans-serif;
   
@@ -1564,7 +1564,7 @@ label {
 #alumni .social-links {
   position: absolute;
   top: 75px;
-  left: 18px;
+  left: 42px;
 }
 
 #team .social-links a,

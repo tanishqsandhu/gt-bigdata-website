@@ -22,11 +22,10 @@ export const Team = (props) => {
                 <div className='caption'>
                     <h4>{d.name}</h4>
                     <p>{d.title}</p>
-                {/* <div class="social-links">
-                  {d.linkedin ? <a href={d.linkedin} className="linkedin"><i class="fa fa-linkedin"></i></a> : ""}
-                  {d.instagram ? <a href={d.instagram} className="insta"><i class="fa fa-instagram"></i></a> : ""}
-                  {d.twitter ? <a href={d.twitter} className="twitter"><i class="fa fa-twitter"></i></a> : ""}
-                </div> */}
+                <div class="social-links">
+                  {d.linkedin ? <a href={d.linkedin} target={'_blank'} className="linkedin"><i class="fa fa-linkedin"></i></a> : ""}
+                  {d.instagram ? <a href={d.instagram} target={'_blank'} className="insta"><i class="fa fa-instagram"></i></a> : ""}
+                </div>
                 </div>
               </div>
               ))
